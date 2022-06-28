@@ -1,0 +1,115 @@
+#sidebar.box.columns.is-gapless
+	.sidebar-content.column.is-narrow
+		.map-tools.columns.is-multiline.is-mobile
+			#tool-layer.map-tool.column.is-full-tablet
+				span.icon.is-medium
+					span.fas.fa-layer-group.fa-lg
+			#tool-basemap.map-tool.column.is-full-tablet
+				span.icon.is-medium
+					span.fas.fa-map.fa-lg
+			//- #tool-infobar.map-tool.column.is-full-tablet
+			//- #tool-legend.map-tool.column.is-full-tablet
+			//- 	span.icon.is-medium
+			//- 		span.fas.fa-th-list.fa-lg
+			#tool-measure.map-tool.column.is-full-tablet
+				span.icon.is-medium
+					span.fas.fa-pencil-ruler.fa-lg
+	.column
+		.tool-panel-container
+			.tool-panel.panel-tool-layer
+				.panel-header
+					h2 DATA LAYER
+				.panel-body
+					ul#menu-content.menu-content.collapse.out.layer-group-list
+						#responsecontainer
+			.tool-panel.panel-tool-basemap
+				.panel-header
+					h2 BASEMAP
+				.panel-body
+					ul.basemap-list
+						li#baseMapboxLight.basemap-list-item
+							.basemap-item-content.columns.is-gapless.is-mobile
+								figure.basemap-image.column.is-3
+									img.basemap-image(src='images/Map/bsmlight-1.png')
+								.basemap-text.column
+									strong Mapbox Light
+									br
+									| OSM with light single tone
+								.basemap-icon.column.is-1
+									i.fa.fa-info-circle
+						li#baseMapboxDark.basemap-list-item
+							.basemap-item-content.columns.is-gapless.is-mobile
+								figure.basemap-image.column.is-3
+									img.basemap-image(src='images/Map/bsmdark-1.png')
+								.basemap-text.column
+									strong Mapbox Dark
+									br
+									| OSM with dark single tone
+								.basemap-icon.column.is-1
+									i.fa.fa-info-circle
+						li#baseOSM.basemap-list-item
+							.basemap-item-content.columns.is-gapless.is-mobile
+								figure.basemap-image.column.is-3
+									img.basemap-image(src='images/Map/streetbdg-1.png')
+								.basemap-text.column
+									strong Open Street Map
+									br
+									| OSM
+								.basemap-icon.column.is-1
+									i.fa.fa-info-circle
+						li#baseEsri.basemap-list-item
+							.basemap-item-content.columns.is-gapless.is-mobile
+								figure.basemap-image.column.is-3
+									img.basemap-image(src='images/Map/streetbdg-1.png')
+								.basemap-text.column
+									strong Esri
+									br
+									| Sattellite Imagery
+								.basemap-icon.column.is-1
+									i.fa.fa-info-circle
+						li#baseMapboxSatellite.basemap-list-item
+							.basemap-item-content.columns.is-gapless.is-mobile
+								figure.basemap-image.column.is-3
+									img.basemap-image(src='images/Map/streetbdg-1.png')
+								.basemap-text.column
+									strong Mapbox Satellite
+									br
+									| Sattellite Imagery
+								.basemap-icon.column.is-1
+									i.fa.fa-info-circle
+			.tool-panel.panel-tool-measure
+				.panel-header
+					h2 PENGUKURAN
+				.panel-body
+					.select
+						select#measureType.select-text
+							option(value='None') Pilih Alat Ukur
+							option(value='LineString') Length (LineString)
+							option(value='Polygon') Area (Polygon)
+							option(value='Circle') Radius (Circle)
+					div
+						button#clearMeasureButton.button.is-medium.is-danger.is-outlined
+							span Reset Pengukuran
+							span.icon.is-small
+								i.fas.fa-times
+			//- .tool-panel.panel-tool-legend
+				.panel-header
+					h2 LEGENDA
+				.panel-body
+					ul.legend-list
+						//- li.legend-list-item
+						//- 	.legend-title
+						//- 		span.legend-marker &amp;#128280
+						//- 		|  Indeks Resiko
+						//- 	.legend-body
+						//- 		// <i class="icon-minus-sign"></i>
+						//- 		img.legend-image(src='http://103.108.201.6/geoserver/geonode/wms?REQUEST=GetLegendGraphic&VERSION=1.0.0&FORMAT=image/png&WIDTH=20&HEIGHT=20&LAYER=geonode:HAZARD&legend_options=countMatched:true;fontAntiAliasing:true;dpi:90;fontsize:10&Transparent=True')
+						//- li.legend-list-item
+						//- 	.legend-title
+						//- 		span.legend-marker &amp;#128280
+						//- 		|  Transportasi Umum
+						//- 	.legend-body
+						//- 		// <i class="icon-minus-sign"></i>
+						//- 		img.legend-image(src='http://103.108.201.6/geoserver/geonode/wms?REQUEST=GetLegendGraphic&VERSION=1.0.0&FORMAT=image/png&WIDTH=20&HEIGHT=20&LAYER=geonode:TRANSPORTASIUMUM&legend_options=countMatched:true;fontAntiAliasing:true;dpi:90;fontsize:10&Transparent=True')
+			.close-button
+				i.fa.fa-times

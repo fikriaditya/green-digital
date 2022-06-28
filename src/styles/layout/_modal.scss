@@ -1,0 +1,21 @@
+.modal {
+    .modal-card-head {
+        .modal-card-title span {
+            vertical-align: middle;
+            margin-right: 16px;
+        }
+
+        .modal-title-text {
+            font-size: 2rem;
+        }
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    .modal {
+        .modal-card-body, strong {
+            color: $black;
+
+        }
+    }
+}

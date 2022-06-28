@@ -1,0 +1,41 @@
+header.main-header
+    .wrapper
+        .nav
+            //-   Main container
+            nav.level
+                //- Left side
+                .level-left
+                    .level-item
+                        a.logo-link(href="#" aria-label="Covid19 Risk Map Logo")
+                            img.logo-img(src="./images/logo_horizontal.svg" alt="website logo" width="auto" height="28")
+                        //- .brand-text
+                        //-     h3
+                        //-         | Peta Resiko &amp; Sebaran 
+                        //-         strong Covid19 
+                        //-     h5.is-hidden-mobile Pemerintah Kota Bandung
+                        .menu-toggle
+                            i.fa.fa-bars
+
+                //- Right side
+                .level-right
+                    p.level-item
+                        strong Periode Monitoring:
+                    p.level-item
+                        select(id="periodSelect" name="periodSelect")
+                            option(value="0622") Juni 2022
+                            option(value="0722") Juli 2022
+                            option(value="0822") Agustus 2022
+                            option(value="0922") September 2022
+                            option(value="1022") Oktober 2022
+                            option(value="1122") November 2022
+                    p.level-item
+                        a(href="#") Home
+                    p.level-item
+                        a(href="#") Internal Link
+                    p.level-item
+                        a.button.is-success.is-medium(href="#" target="_blank")
+                            span External Link
+                            span.icon
+                                i.fa.fa-external-link-alt
+        .close-button
+            i.fa.fa-times

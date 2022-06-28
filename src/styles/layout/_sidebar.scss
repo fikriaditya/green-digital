@@ -1,0 +1,300 @@
+#sidebar {
+  // width: 5rem;
+  height: 100%;
+
+  // .map-tools {
+  //   width: 5rem;
+  // }
+
+  .map-tool {
+    height: 5rem;
+    width: 5rem;
+    text-align: center;
+    cursor: pointer;
+
+    &:hover {
+      border-radius: 50px;
+      background-color: #f2f2f2;
+    }
+
+    .icon {
+      height:100%;
+    }
+  }
+
+  .tool-panel {
+    .panel-body {
+      padding: 16px 2px;
+      max-height: calc(100% - 30px);
+      overflow-y: auto;
+    }
+    li.layer-group-list-item {
+      border-radius: 5px;
+      margin-bottom: 8px;
+      background-color: rgba(183, 172, 172, 0.02);
+      box-shadow: 0 0.1em 0.2em 0.1em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.02);
+      
+      a.layer-group-toggle {
+        display: block;
+        padding: 10px 16px;
+
+        .layer-group-icon {
+          margin-right: 10px;
+        }
+
+        .chevron-icon {
+          float: right;
+        }
+      }
+
+      &.is-open {
+        ul.layer-list {
+          display: block;
+        }
+      }
+    }
+    ul.layer-list {
+      display:none;
+      padding: 0 10px 10px 10px;
+    }
+    li.layer-list-item {
+      padding: 10px;
+      border-radius: 4px;
+      background-color: rgba(109, 59, 77, 0.05);
+      margin-bottom: 3px;
+
+      .layer-item-content {
+        margin-bottom: 0;
+      }
+    }
+    .layer-toggle {
+      input[type="checkbox"] {
+        display: none;
+      }
+      margin: auto;
+      font-size: 14px;
+      label {
+        cursor: pointer;
+      }
+    }
+    .layer-text {
+      font-size: 12px;
+      margin: auto 10px;
+    }
+    .layer-icon {
+      margin: auto;
+      font-size: 14px;
+      color: #97bd3d;
+      cursor: pointer;
+    }
+
+    li.basemap-list-item {
+      padding: 10px;
+      border-radius: 4px;
+      background-color: rgba(66, 100, 134, 0.05);
+      margin-bottom: 8px;
+      box-shadow: 0 0.1em 0.2em 0.1em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.02);
+
+      &:hover {
+        background-color: rgba(70, 165, 255, 0.2);
+      }
+    }
+    figure.basemap-image {
+      margin-right: 10px;
+    }
+    img.basemap-image {
+      border-radius: 80px;
+      width: 40px;
+      box-shadow: -1px 6px 8px #848484, 1px -6px 8px #ffffff;
+    }
+    .basemap-text {
+      font-size: 12px;
+      vertical-align: middle;
+      margin: auto;
+      margin-right: 10px;
+    }
+    .basemap-icon {
+      margin: auto;
+      font-size: 14px;
+      color: #4cb1ff;
+      cursor: pointer;
+    }
+
+    .legend-list {
+      padding: 0 12px;
+    }
+    .legend-list-item {
+      padding: 10px;
+      border-radius: 5px;
+      background-color: rgba(222, 221, 221, 0.5);
+      margin-bottom: 8px;
+      box-shadow: 0 0.1em 0.2em 0.1em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.04);
+  
+      .legend-title {
+        margin-bottom: 1.2rem;
+      }
+      .legend-marker {
+        font-size: 12px;
+      }
+      .legend-body {
+        margin-left: 2rem;
+      }
+    }
+
+    .select {
+      margin-bottom: 1.6rem;
+    }
+  }
+}
+
+@media (min-width: 769px) {
+  .map-tools {
+    width: 5rem;
+
+    #tool-infobar {
+      display: none;
+    }
+  }
+
+  .tool-panel-container {
+    width: 0px;
+    transition: width 0.2s ease-in;
+
+    &.is-open {
+      width: 250px;
+      height: 100%;
+      margin-left: 1rem;
+      padding-left: 1rem;
+      // border-left: 1px solid #f1f1f1;
+      box-shadow: inset 4px 0px 3px -3px rgba(134,134,134,0.5);
+    }
+
+    .close-button {
+      display: none;
+    }
+
+    .tool-panel {
+      display: none;
+      width: 0px;
+      transition: width 0.2s ease-in;
+
+      &.is-active {
+        display: block;
+        width: auto;
+        height: 100%;
+      }
+
+      li.layer-list-item {
+        .layer-slider {
+          visibility: hidden;
+          height: 0px;
+          animation: height 1s ease-in;
+
+          input {
+            opacity: 0;
+            visibility: hidden;
+            animation: opacity 1s ease-in 0.2s;
+          }
+        }
+        &:hover .layer-slider {
+          visibility: visible;
+          height: auto;
+          
+          input {
+            visibility: visible;
+            opacity: 1;
+          }
+        }
+      }
+
+      li.basemap-list-item {
+        background-color: #ffffff0a;
+      }
+    }
+  }
+}
+
+@media (max-width:768px) {
+  #sidebar {
+    border-radius: 0;
+    border-top: 1px solid;
+    border-color: rgba(199, 199, 199, 0.45);
+    box-shadow: 0em -0.1em 0.3em 0.1em rgba(30, 30, 30, 0.08), 0 0px 0 1px rgba(10, 10, 10, 0.02);
+  }
+  .tool-panel-container {
+    .tool-panel {
+      display: none;
+      width: 0px;
+
+      .panel-body {
+        overflow: auto;
+        height: 100%;
+      }
+
+      ul.layer-group-list {
+        margin: 0px 10px;
+      }
+    }
+
+    .close-button {
+      display: none;
+    }
+
+    &.is-open {
+      position: fixed;
+      padding: 24px;
+      top: 0;
+      left: 0;
+      height: 100vh;
+      width: 100%;
+      background-color: white;
+
+      .tool-panel.is-active {
+        display: block;
+        width: 100%;
+        height: calc(100% - 50px);
+        overflow: hidden;
+      }
+
+      .close-button {
+        display: block;
+        font-size: 30px;
+        width: 50px;
+        height: 50px;
+        margin: 10px auto;
+        /* margin-top: 10px; */
+        border-radius: 50px;
+        text-align: center;
+        /* vertical-align: middle; */
+        padding: 4px;
+        background-color: grey;
+      }
+    }
+  }
+}
+
+// Sidebar Dark Styling
+@media (prefers-color-scheme: dark) {
+  #sidebar {
+    .tool-panel {
+      li.layer-group-list-item {
+        background-color: rgba(255, 255, 255, 0.05);
+        box-shadow: 0 0.1em 0.2em 0.1em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.02);
+      }
+
+      li.layer-list-item {
+        background-color: rgba(183, 170, 175, 0.05);
+      }
+
+      img.basemap-image {
+        box-shadow: -1px 6px 8px #060606, 1px -6px 8px #333538;
+      }
+    }
+  }
+
+  @media (max-width:768px) {
+    .tool-panel-container.is-open {
+      background-color: $black;
+    }
+  }
+}

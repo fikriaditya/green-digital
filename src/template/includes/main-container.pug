@@ -1,0 +1,61 @@
+.main-container.columns.is-0.is-variable
+    .column.is-narrow.is-narrow-mobile
+        include ./components/sidebar.pug
+    .column.map-container
+        #map.box
+            //- .index-legend
+            //-     .legend-title Indeks Resiko
+            //-     .legend-scale
+            //-         ul.legend-labels
+            //-             li
+            //-                 .color-map(style="background:#7dc137")
+            //-                 | Sangat Rendah
+            //-             li
+            //-                 .color-map(style="background:#ddec59")
+            //-                 | Rendah
+            //-             li
+            //-                 .color-map(style="background:#f9d357")
+            //-                 | Sedang
+            //-             li
+            //-                 .color-map(style="background:#fb9958")
+            //-                 | Tinggi
+            //-             li
+            //-                 .color-map(style="background:#fc5852")
+            //-                 | Sangat Tinggi
+            //-     .legend-title-case.has-text-centered Kasus Positif
+            //-     .legend-scale
+            //-         ul.legend-labels-2
+            //-             li
+            //-                 .color-map(style="background:#fff7f3")
+            //-                 | 
+            //-             li
+            //-                 .color-map(style="background:#fde0dd")
+            //-                 .span 0
+            //-             li
+            //-                 .color-map(style="background:#fcc5c0")
+            //-                 .span 5
+            //-             li
+            //-                 .color-map(style="background:#fa9fb5")
+            //-                 .span 10
+            //-             li
+            //-                 .color-map(style="background:#f768a1")
+            //-                 .span 20
+            //-             li
+            //-                 .color-map(style="background:#dd3497")
+            //-                 .span 50
+            //-             li
+            //-                 .color-map(style="background:#ae017e")
+            //-                 .span 100
+            //-             li
+            //-                 .color-map(style="background:#7a0177")
+            //-                 .span 500
+        div(id="popup" class="ol-popup")
+            a(href="#" id="popup-closer" class="ol-popup-closer")
+            div(id="popup-content")
+                #popup-locations
+                #popup-main
+    .column.is-narrow.is-narrow-mobile.infobar-container
+        include ./components/infobar.pug
+    #infobarToggle
+        span.icon.is-medium
+            span.fas.fa-layer-group.fa-chevron-left

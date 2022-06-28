@@ -1,0 +1,104 @@
+#infobar {
+  width: 30rem;
+  height: 100%;
+  overflow: auto;
+  border-left: 1px solid rgba(125, 125, 125, 0.25);
+
+  .info-body img {
+    min-height: 150px;
+    background: #7a7a7aa8;
+    text-align: center;
+    line-height: 150px;
+  }
+
+  .info-container {
+    margin-bottom: 2.4rem;
+  }
+
+  .info-header {
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #cccccc;
+
+    .columns {
+      padding: 0.75rem;
+    }
+
+    .infobar-closer {
+      height: 100%;
+      width: 100%;
+
+    }
+
+  // .info-title {
+  //   border-bottom: 1px solid #cccccc;
+  //   // margin-bottom: 1rem;
+
+    span.indeks-info {
+      margin-left: 10px;
+      float: right;
+      font-size: 16px;
+      color: #ed5565;
+    }
+  }
+
+  .info-stat-number, .info-stat-text {
+    text-align: center;
+    &.is-emergency {
+      color: $emergency;
+    }
+    &.is-dead {
+      color: $dead;
+    }
+    &.is-recovered {
+      color: $recovered;
+    }
+    &.is-completed {
+      color: $completed;
+    }
+    &.is-watched {
+      color: $watched;
+    }
+    &.is-monitored {
+      color: $monitored;
+    } 
+  }
+  .legend-list {
+    padding: 0 12px;
+  }
+  .legend-list-item {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(222, 221, 221, 0.5);
+    margin-bottom: 8px;
+    box-shadow: 0 0.1em 0.2em 0.1em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.04);
+
+    .legend-title {
+      margin-bottom: 1.2rem;
+    }
+    .legend-marker {
+      font-size: 12px;
+    }
+    .legend-body {
+      margin-left: 2rem;
+    }
+  }
+
+  .index-list, .index-slider {
+    margin-bottom: 12px;
+  }
+
+  .index-slider, .case-slider {
+    padding: 10px;
+  }
+}
+
+@include respond-to('tablet') {
+  #infobar {
+    width: 100%;
+    height: 350px;
+    border-radius: 0;
+    border-top: 1px solid;
+    border-color: rgba(199, 199, 199, 0.45);
+    box-shadow: 0em -0.1em 0.3em 0.1em rgba(30, 30, 30, 0.08), 0 0px 0 1px rgba(10, 10, 10, 0.02);
+  }
+}

@@ -1,0 +1,126 @@
+header {
+  background: $light-grey;
+  background: rgba(255, 255, 255, 1);
+  border-bottom: 1px solid rgba(125, 125, 125, 0.25);
+  backdrop-filter: blur(10px);
+
+  .close-button {
+    display: none;
+  }
+}
+
+.nav {
+  // display: flex;
+  // align-items: center;
+  // border-bottom: 1px solid $grey;
+  padding: 4px 18px;
+  .link {
+    &:hover {
+      color: darken($color-primary, 15);
+    }
+  }
+  .logo-link {
+    padding: 5px 10px;
+    margin-right: 10px;
+    // border-right: 1px solid $grey;
+    &:hover {
+      background: $pink;
+    }
+  }
+  .logo-img {
+    width: auto;
+    height: 28px;
+  }
+
+  .menu-toggle {
+    display: none;
+  }
+
+  .level-right .level-item {
+    margin-right: 2.4rem;
+  }
+}
+
+@include respond-to('tablet') {
+  header.is-expanded {
+    position: absolute;
+    height: 100%;
+    bottom: 0;
+    width: 100%;
+    z-index: 4;
+
+    .nav {
+      height: calc(100vh - 70px);
+    }
+
+    nav {
+      
+      .level-right {
+        display: block;
+      }
+    }
+
+    .close-button {
+      display: block;
+      font-size: 30px;
+      width: 50px;
+      height: 50px;
+      margin: 10px auto;
+      /* margin-top: 10px; */
+      border-radius: 50px;
+      text-align: center;
+      /* vertical-align: middle; */
+      padding: 4px;
+      background-color: grey;
+    }
+  }
+  nav {
+    .level-left {
+      .level-item {
+        justify-content: normal;
+
+        .menu-toggle {
+          display: block;
+          position: absolute;
+          right: 10px;
+          padding: 10px 16px;
+        }
+      }
+    }
+    .level-right {
+      display:none;
+      padding: 24px;
+
+      .level-item {
+        padding: 10px 16px;
+        justify-content: normal;
+        border-bottom: 2px solid;
+        border-color: #29292940;
+      }
+    }
+  }
+
+  body.is-covered {
+    header.main-header {
+      display: none;
+    }
+
+    #map {
+      display: none;
+    }
+
+    main .main-container #infobarToggle {
+      z-index: 1;
+    }
+  
+    footer.main-footer {
+      display: none;
+    }
+  }
+}
+// Styling Specific for dark mode
+@media (prefers-color-scheme: dark) {
+  header {
+    background: $dark-black-transparent;
+  }
+}

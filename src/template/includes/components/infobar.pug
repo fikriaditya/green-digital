@@ -1,0 +1,133 @@
+#infobar.box
+    .infobar-content
+        .info-container.info-general
+            .info-header
+                .columns.is-mobile
+                    .column
+                        h2.info-title#idPohonTitle
+                            | ID Pohon
+                    .column.is-1 
+                        span.icon.infobar-closer
+                            i.fas.fa-lg.fa-times-circle
+            .info-body
+                div 
+                    figure.image
+                        img(src="https://bulma.io/images/placeholders/256x256.png" alt="Monitored Tree Photo Unavailable")
+                div(style="text-align: center;")
+                    small Update Tanggal : <span>19/11/2020</span>
+                div 
+                    h4 Koordinat 
+                    ul 
+                        li
+                            small
+                                strong Lintang: 
+                                span#treeLat -7.6754837628
+                        li 
+                            small
+                                strong Bujur: 
+                                span#treeLong 107.876453792
+                    | <br>
+                    h4 Informasi Pohon 
+                    ul 
+                        li
+                            small
+                                strong Lokasi Konservasi: 
+                                span#treeLoc Taman Buru Gunung Masigit Kareumbi
+                        li 
+                            small
+                                strong Jenis Pohon: 
+                                span#treeType Pinus Eucalyptus
+                        li 
+                            small
+                                strong Tanggal Penanaman: 
+                                span#plantDate 20 Maret 2022
+                        li 
+                            small
+                                strong Tinggi Pohon: 
+                                span#treeHeight 7.45 m
+                    table(style="width:100%")
+                        tr
+                            th Name:
+                            td Bill Gates
+                        tr
+                            th Telephone:
+                            td 555 77 854
+                        tr
+                            th Telephone:
+                            td 555 77 855
+                        
+        //- .info-container.info-detail
+        //-     .info-header
+        //-         h2.info-title
+        //-             | Indeks Resiko
+        //-             span.indeks-info
+        //-                 i.fa.fa-info-circle
+        //-     .info-body
+        //-         .index-list
+        //-             .radio-toolbar.columns.is-mobile.is-gapless
+        //-                 .column.is-narrow
+        //-                     input#radioHazard(type='radio' name='indexRadio' value='Hazard' checked='')
+        //-                     label(for='radioHazard') Ancaman
+        //-                 .column.is-narrow
+        //-                     input#radioCapacity(type='radio' name='indexRadio' value='Capacity')
+        //-                     label(for='radioCapacity') Kapasitas
+        //-                 .column.is-narrow
+        //-                     input#radioVulnerability(type='radio' name='indexRadio' value='Vulnerability')
+        //-                     label(for='radioVulnerability') Kerentanan
+        //-                 .column.is-narrow
+        //-                     input#radioRisk(type='radio' name='indexRadio' value='Risk')
+        //-                     label(for='radioRisk') Resiko
+        //-         .index-slider
+        //-             input#indexTimeseries.js-range-slider(type='text' name='my_range' value='')
+        //-         .index-opacity
+        //-             .columns.is-mobile
+        //-                 .column
+        //-                     | Transparansi
+        //-                 .column.is-narrow
+        //-                     input#indeksOpacity.slider.indeksOpacity.layeropacity(type='range' min='1' max='100' value='100' name='indeksOpacity')
+        //-         .index-analyzer
+        //-             .columns.is-mobile
+        //-                 .column
+        //-                     | Analisis Lokasi
+        //-                 .column.is-narrow
+        //-                     .onoffswitch
+        //-                         input#myonoffswitch.onoffswitch-checkbox(type='checkbox' name='onoffswitch' tabindex='0' checked='')
+        //-                         label.onoffswitch-label(for='myonoffswitch')
+        //- .info-container.info-detail
+        //-     .info-header
+        //-         h2.info-title
+        //-             | Data Kasus
+        //-     .info-body
+        //-         .case-weighting
+        //-             //- div
+        //-             //-     p
+        //-             //-         | Kasus Berdasarkan
+        //-             //- div
+        //-             //-     .select
+        //-             //-         select#caseType.select-text
+        //-             //-             option(value='posAktif') Kasus Positif Aktif
+        //-             //-             option(value='posMeninggal') Kasus Positif Meninggal
+        //-             //-             option(value='posSmbh') Kasus Positif Sembuh
+        //-             //-             option(value='suspekDipantau') Suspek Dipantau
+        //-             //-             option(value='kontakDipantau') Kontak Erat Dipantau
+        //-             //-             option(value='caseIndex') Pembobotan Nilai
+        //-             .columns.is-mobile
+        //-                 .column(style="line-height: 36px;")
+        //-                     | Kasus: 
+        //-                 .column.is-narrow
+        //-                     .select(style="font-size: 14px;")
+        //-                         select#caseType.select-text
+        //-                             option(value='posAktif') Kasus Positif Aktif
+        //-                             option(value='posMeninggal') Kasus Positif Meninggal
+        //-                             option(value='posSmbh') Kasus Positif Sembuh
+        //-                             option(value='suspekDipantau') Suspek Dipantau
+        //-                             option(value='kontakDipantau') Kontak Erat Dipantau
+        //-                             option(value='caseIndex') Pembobotan Nilai
+        //-         .case-slider
+        //-             input#caseTimeseries.js-range-slider(type='text' name='my_range2' value='')
+        //-         .case-opacity
+        //-             .columns.is-mobile
+        //-                 .column
+        //-                     | Transparansi
+        //-                 .column.is-narrow
+        //-                     input#caseOpacity.slider.caseOpacity.layeropacity(type='range' min='1' max='100' value='1' name='indeksOpacity')

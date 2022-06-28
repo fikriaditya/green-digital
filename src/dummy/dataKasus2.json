@@ -1,0 +1,5739 @@
+[{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c34bf"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Campaka",
+  "kodeBPS": "3273180001",
+  "kontakDipantau": 1,
+  "kontakDisc": 27,
+  "kontakTot": 28,
+  "suspekDipantau": 1,
+  "suspekDisc": 25,
+  "suspekTot": 26,
+  "posAktif": 0,
+  "posSmbh": 9,
+  "posMeninggal": 0,
+  "posTot": 9
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c34c0"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Ciroyom",
+  "kodeBPS": "3273180005",
+  "kontakDipantau": 0,
+  "kontakDisc": 42,
+  "kontakTot": 42,
+  "suspekDipantau": 5,
+  "suspekDisc": 126,
+  "suspekTot": 131,
+  "posAktif": 0,
+  "posSmbh": 9,
+  "posMeninggal": 0,
+  "posTot": 9
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c34c1"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Dunguscariang",
+  "kodeBPS": "3273180004",
+  "kontakDipantau": 2,
+  "kontakDisc": 35,
+  "kontakTot": 37,
+  "suspekDipantau": 1,
+  "suspekDisc": 83,
+  "suspekTot": 84,
+  "posAktif": 2,
+  "posSmbh": 20,
+  "posMeninggal": 3,
+  "posTot": 25
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c34c2"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Garuda",
+  "kodeBPS": "3273180003",
+  "kontakDipantau": 19,
+  "kontakDisc": 30,
+  "kontakTot": 49,
+  "suspekDipantau": 4,
+  "suspekDisc": 64,
+  "suspekTot": 68,
+  "posAktif": 1,
+  "posSmbh": 10,
+  "posMeninggal": 2,
+  "posTot": 13
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c34c3"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Kebon Jeruk",
+  "kodeBPS": "3273180006",
+  "kontakDipantau": 4,
+  "kontakDisc": 19,
+  "kontakTot": 23,
+  "suspekDipantau": 3,
+  "suspekDisc": 319,
+  "suspekTot": 322,
+  "posAktif": 6,
+  "posSmbh": 5,
+  "posMeninggal": 1,
+  "posTot": 12
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c34c4"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Maleber",
+  "kodeBPS": "3273180002",
+  "kontakDipantau": 1,
+  "kontakDisc": 52,
+  "kontakTot": 53,
+  "suspekDipantau": 2,
+  "suspekDisc": 58,
+  "suspekTot": 60,
+  "posAktif": 2,
+  "posSmbh": 11,
+  "posMeninggal": 1,
+  "posTot": 14
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c34c5"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Antapani Kidul",
+  "kodeBPS": "3273141001",
+  "kontakDipantau": 9,
+  "kontakDisc": 37,
+  "kontakTot": 46,
+  "suspekDipantau": 7,
+  "suspekDisc": 137,
+  "suspekTot": 144,
+  "posAktif": 4,
+  "posSmbh": 15,
+  "posMeninggal": 0,
+  "posTot": 19
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c34c6"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Antapani Kulon",
+  "kodeBPS": "3273141004",
+  "kontakDipantau": 0,
+  "kontakDisc": 35,
+  "kontakTot": 35,
+  "suspekDipantau": 3,
+  "suspekDisc": 63,
+  "suspekTot": 66,
+  "posAktif": 0,
+  "posSmbh": 13,
+  "posMeninggal": 0,
+  "posTot": 13
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c34c7"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Antapani Tengah",
+  "kodeBPS": "3273141002",
+  "kontakDipantau": 2,
+  "kontakDisc": 51,
+  "kontakTot": 53,
+  "suspekDipantau": 5,
+  "suspekDisc": 138,
+  "suspekTot": 143,
+  "posAktif": 4,
+  "posSmbh": 10,
+  "posMeninggal": 0,
+  "posTot": 14
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c34c8"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Antapani Wetan",
+  "kodeBPS": "3273141003",
+  "kontakDipantau": 0,
+  "kontakDisc": 90,
+  "kontakTot": 90,
+  "suspekDipantau": 1,
+  "suspekDisc": 104,
+  "suspekTot": 105,
+  "posAktif": 1,
+  "posSmbh": 19,
+  "posMeninggal": 0,
+  "posTot": 20
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c34c9"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Cisaranten Bina Harapan",
+  "kodeBPS": "3273130002",
+  "kontakDipantau": 0,
+  "kontakDisc": 17,
+  "kontakTot": 17,
+  "suspekDipantau": 0,
+  "suspekDisc": 16,
+  "suspekTot": 16,
+  "posAktif": 3,
+  "posSmbh": 3,
+  "posMeninggal": 0,
+  "posTot": 6
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c34ca"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Cisaranten Endah",
+  "kodeBPS": "3273130005",
+  "kontakDipantau": 0,
+  "kontakDisc": 85,
+  "kontakTot": 85,
+  "suspekDipantau": 3,
+  "suspekDisc": 86,
+  "suspekTot": 89,
+  "posAktif": 1,
+  "posSmbh": 30,
+  "posMeninggal": 0,
+  "posTot": 31
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c34cb"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Cisaranten Kulon",
+  "kodeBPS": "3273130001",
+  "kontakDipantau": 1,
+  "kontakDisc": 123,
+  "kontakTot": 124,
+  "suspekDipantau": 5,
+  "suspekDisc": 112,
+  "suspekTot": 117,
+  "posAktif": 9,
+  "posSmbh": 21,
+  "posMeninggal": 0,
+  "posTot": 30
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c34cc"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Sukamiskin",
+  "kodeBPS": "3273130003",
+  "kontakDipantau": 1,
+  "kontakDisc": 65,
+  "kontakTot": 66,
+  "suspekDipantau": 6,
+  "suspekDisc": 82,
+  "suspekTot": 88,
+  "posAktif": 11,
+  "posSmbh": 24,
+  "posMeninggal": 4,
+  "posTot": 39
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c34cd"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Cibadak",
+  "kodeBPS": "3273050005",
+  "kontakDipantau": 19,
+  "kontakDisc": 59,
+  "kontakTot": 78,
+  "suspekDipantau": 2,
+  "suspekDisc": 42,
+  "suspekTot": 44,
+  "posAktif": 2,
+  "posSmbh": 8,
+  "posMeninggal": 0,
+  "posTot": 10
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c34ce"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Karang Anyar",
+  "kodeBPS": "3273050006",
+  "kontakDipantau": 0,
+  "kontakDisc": 15,
+  "kontakTot": 15,
+  "suspekDipantau": 0,
+  "suspekDisc": 9,
+  "suspekTot": 9,
+  "posAktif": 1,
+  "posSmbh": 2,
+  "posMeninggal": 0,
+  "posTot": 3
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c34cf"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Karasak",
+  "kodeBPS": "3273050001",
+  "kontakDipantau": 0,
+  "kontakDisc": 11,
+  "kontakTot": 11,
+  "suspekDipantau": 1,
+  "suspekDisc": 19,
+  "suspekTot": 20,
+  "posAktif": 0,
+  "posSmbh": 7,
+  "posMeninggal": 0,
+  "posTot": 7
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c34d0"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Nyengseret",
+  "kodeBPS": "3273050003",
+  "kontakDipantau": 0,
+  "kontakDisc": 58,
+  "kontakTot": 58,
+  "suspekDipantau": 3,
+  "suspekDisc": 20,
+  "suspekTot": 23,
+  "posAktif": 0,
+  "posSmbh": 7,
+  "posMeninggal": 1,
+  "posTot": 8
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c34d1"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Panjunan",
+  "kodeBPS": "3273050004",
+  "kontakDipantau": 0,
+  "kontakDisc": 31,
+  "kontakTot": 31,
+  "suspekDipantau": 0,
+  "suspekDisc": 9,
+  "suspekTot": 9,
+  "posAktif": 0,
+  "posSmbh": 3,
+  "posMeninggal": 1,
+  "posTot": 4
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c34d2"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Pelindung Hewan",
+  "kodeBPS": "3273050002",
+  "kontakDipantau": 0,
+  "kontakDisc": 6,
+  "kontakTot": 6,
+  "suspekDipantau": 3,
+  "suspekDisc": 36,
+  "suspekTot": 39,
+  "posAktif": 0,
+  "posSmbh": 11,
+  "posMeninggal": 0,
+  "posTot": 11
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c34d3"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Babakan",
+  "kodeBPS": "3273020005",
+  "kontakDipantau": 0,
+  "kontakDisc": 10,
+  "kontakTot": 10,
+  "suspekDipantau": 2,
+  "suspekDisc": 59,
+  "suspekTot": 61,
+  "posAktif": 0,
+  "posSmbh": 2,
+  "posMeninggal": 1,
+  "posTot": 3
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c34d4"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Babakan Ciparay",
+  "kodeBPS": "3273020004",
+  "kontakDipantau": 4,
+  "kontakDisc": 53,
+  "kontakTot": 57,
+  "suspekDipantau": 8,
+  "suspekDisc": 221,
+  "suspekTot": 229,
+  "posAktif": 0,
+  "posSmbh": 7,
+  "posMeninggal": 2,
+  "posTot": 9
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c34d5"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Cirangrang",
+  "kodeBPS": "3273020002",
+  "kontakDipantau": 0,
+  "kontakDisc": 9,
+  "kontakTot": 9,
+  "suspekDipantau": 0,
+  "suspekDisc": 16,
+  "suspekTot": 16,
+  "posAktif": 0,
+  "posSmbh": 7,
+  "posMeninggal": 0,
+  "posTot": 7
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c34d6"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Margahayu Utara",
+  "kodeBPS": "3273020003",
+  "kontakDipantau": 10,
+  "kontakDisc": 40,
+  "kontakTot": 50,
+  "suspekDipantau": 0,
+  "suspekDisc": 95,
+  "suspekTot": 95,
+  "posAktif": 7,
+  "posSmbh": 4,
+  "posMeninggal": 0,
+  "posTot": 11
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c34d7"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Margasuka",
+  "kodeBPS": "3273020001",
+  "kontakDipantau": 0,
+  "kontakDisc": 13,
+  "kontakTot": 13,
+  "suspekDipantau": 0,
+  "suspekDisc": 9,
+  "suspekTot": 9,
+  "posAktif": 3,
+  "posSmbh": 2,
+  "posMeninggal": 0,
+  "posTot": 5
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c34d8"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Sukahaji",
+  "kodeBPS": "3273020006",
+  "kontakDipantau": 1,
+  "kontakDisc": 7,
+  "kontakTot": 8,
+  "suspekDipantau": 4,
+  "suspekDisc": 71,
+  "suspekTot": 75,
+  "posAktif": 0,
+  "posSmbh": 12,
+  "posMeninggal": 0,
+  "posTot": 12
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c34d9"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Batununggal",
+  "kodeBPS": "3273080003",
+  "kontakDipantau": 0,
+  "kontakDisc": 35,
+  "kontakTot": 35,
+  "suspekDipantau": 3,
+  "suspekDisc": 65,
+  "suspekTot": 68,
+  "posAktif": 0,
+  "posSmbh": 12,
+  "posMeninggal": 1,
+  "posTot": 13
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c34da"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Kujangsari",
+  "kodeBPS": "3273080004",
+  "kontakDipantau": 0,
+  "kontakDisc": 36,
+  "kontakTot": 36,
+  "suspekDipantau": 3,
+  "suspekDisc": 53,
+  "suspekTot": 56,
+  "posAktif": 2,
+  "posSmbh": 5,
+  "posMeninggal": 0,
+  "posTot": 7
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c34db"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Mengger",
+  "kodeBPS": "3273080002",
+  "kontakDipantau": 0,
+  "kontakDisc": 63,
+  "kontakTot": 63,
+  "suspekDipantau": 2,
+  "suspekDisc": 270,
+  "suspekTot": 272,
+  "posAktif": 1,
+  "posSmbh": 12,
+  "posMeninggal": 0,
+  "posTot": 13
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c34dc"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Wates",
+  "kodeBPS": "3273080001",
+  "kontakDipantau": 0,
+  "kontakDisc": 5,
+  "kontakTot": 5,
+  "suspekDipantau": 0,
+  "suspekDisc": 9,
+  "suspekTot": 9,
+  "posAktif": 1,
+  "posSmbh": 1,
+  "posMeninggal": 0,
+  "posTot": 2
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c34dd"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Caringin",
+  "kodeBPS": "3273010005",
+  "kontakDipantau": 0,
+  "kontakDisc": 19,
+  "kontakTot": 19,
+  "suspekDipantau": 1,
+  "suspekDisc": 16,
+  "suspekTot": 17,
+  "posAktif": 1,
+  "posSmbh": 3,
+  "posMeninggal": 0,
+  "posTot": 4
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c34de"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Cibuntu",
+  "kodeBPS": "3273010007",
+  "kontakDipantau": 8,
+  "kontakDisc": 8,
+  "kontakTot": 16,
+  "suspekDipantau": 5,
+  "suspekDisc": 43,
+  "suspekTot": 48,
+  "posAktif": 3,
+  "posSmbh": 7,
+  "posMeninggal": 1,
+  "posTot": 11
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c34df"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Cigondewah Kaler",
+  "kodeBPS": "3273010002",
+  "kontakDipantau": 0,
+  "kontakDisc": 54,
+  "kontakTot": 54,
+  "suspekDipantau": 5,
+  "suspekDisc": 41,
+  "suspekTot": 46,
+  "posAktif": 1,
+  "posSmbh": 3,
+  "posMeninggal": 0,
+  "posTot": 4
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c34e0"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Cigondewah Kidul",
+  "kodeBPS": "3273010003",
+  "kontakDipantau": 17,
+  "kontakDisc": 47,
+  "kontakTot": 64,
+  "suspekDipantau": 3,
+  "suspekDisc": 31,
+  "suspekTot": 34,
+  "posAktif": 0,
+  "posSmbh": 6,
+  "posMeninggal": 1,
+  "posTot": 7
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c34e1"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Cigondewah Rahayu",
+  "kodeBPS": "3273010004",
+  "kontakDipantau": 1,
+  "kontakDisc": 22,
+  "kontakTot": 23,
+  "suspekDipantau": 0,
+  "suspekDisc": 18,
+  "suspekTot": 18,
+  "posAktif": 0,
+  "posSmbh": 2,
+  "posMeninggal": 0,
+  "posTot": 2
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c34e2"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Cijerah",
+  "kodeBPS": "3273010008",
+  "kontakDipantau": 0,
+  "kontakDisc": 86,
+  "kontakTot": 86,
+  "suspekDipantau": 7,
+  "suspekDisc": 58,
+  "suspekTot": 65,
+  "posAktif": 12,
+  "posSmbh": 29,
+  "posMeninggal": 1,
+  "posTot": 42
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c34e3"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Gempolsari",
+  "kodeBPS": "3273010001",
+  "kontakDipantau": 1,
+  "kontakDisc": 77,
+  "kontakTot": 78,
+  "suspekDipantau": 0,
+  "suspekDisc": 35,
+  "suspekTot": 35,
+  "posAktif": 0,
+  "posSmbh": 15,
+  "posMeninggal": 1,
+  "posTot": 16
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c34e4"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Warung Muncang",
+  "kodeBPS": "3273010006",
+  "kontakDipantau": 5,
+  "kontakDisc": 7,
+  "kontakTot": 12,
+  "suspekDipantau": 0,
+  "suspekDisc": 54,
+  "suspekTot": 54,
+  "posAktif": 4,
+  "posSmbh": 2,
+  "posMeninggal": 0,
+  "posTot": 6
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c34e5"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Cihapit",
+  "kodeBPS": "3273200003",
+  "kontakDipantau": 1,
+  "kontakDisc": 10,
+  "kontakTot": 11,
+  "suspekDipantau": 0,
+  "suspekDisc": 32,
+  "suspekTot": 32,
+  "posAktif": 0,
+  "posSmbh": 4,
+  "posMeninggal": 0,
+  "posTot": 4
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c34e6"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Citarum",
+  "kodeBPS": "3273200002",
+  "kontakDipantau": 0,
+  "kontakDisc": 3,
+  "kontakTot": 3,
+  "suspekDipantau": 2,
+  "suspekDisc": 22,
+  "suspekTot": 24,
+  "posAktif": 0,
+  "posSmbh": 2,
+  "posMeninggal": 0,
+  "posTot": 2
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c34e7"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Tamansari",
+  "kodeBPS": "3273200001",
+  "kontakDipantau": 1,
+  "kontakDisc": 34,
+  "kontakTot": 35,
+  "suspekDipantau": 5,
+  "suspekDisc": 36,
+  "suspekTot": 41,
+  "posAktif": 0,
+  "posSmbh": 6,
+  "posMeninggal": 0,
+  "posTot": 6
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c34e8"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Binong",
+  "kodeBPS": "3273160002",
+  "kontakDipantau": 4,
+  "kontakDisc": 38,
+  "kontakTot": 42,
+  "suspekDipantau": 0,
+  "suspekDisc": 36,
+  "suspekTot": 36,
+  "posAktif": 2,
+  "posSmbh": 9,
+  "posMeninggal": 0,
+  "posTot": 11
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c34e9"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Cibangkong",
+  "kodeBPS": "3273160005",
+  "kontakDipantau": 0,
+  "kontakDisc": 61,
+  "kontakTot": 61,
+  "suspekDipantau": 1,
+  "suspekDisc": 71,
+  "suspekTot": 72,
+  "posAktif": 0,
+  "posSmbh": 3,
+  "posMeninggal": 1,
+  "posTot": 4
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c34ea"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Gumuruh",
+  "kodeBPS": "3273160001",
+  "kontakDipantau": 4,
+  "kontakDisc": 33,
+  "kontakTot": 37,
+  "suspekDipantau": 5,
+  "suspekDisc": 38,
+  "suspekTot": 43,
+  "posAktif": 1,
+  "posSmbh": 6,
+  "posMeninggal": 0,
+  "posTot": 7
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c34eb"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Kacapiring",
+  "kodeBPS": "3273160007",
+  "kontakDipantau": 1,
+  "kontakDisc": 11,
+  "kontakTot": 12,
+  "suspekDipantau": 0,
+  "suspekDisc": 29,
+  "suspekTot": 29,
+  "posAktif": 0,
+  "posSmbh": 2,
+  "posMeninggal": 0,
+  "posTot": 2
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c34ec"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Kebongedang",
+  "kodeBPS": "3273160003",
+  "kontakDipantau": 0,
+  "kontakDisc": 60,
+  "kontakTot": 60,
+  "suspekDipantau": 0,
+  "suspekDisc": 24,
+  "suspekTot": 24,
+  "posAktif": 0,
+  "posSmbh": 7,
+  "posMeninggal": 0,
+  "posTot": 7
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c34ed"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Kebonwaru",
+  "kodeBPS": "3273160008",
+  "kontakDipantau": 4,
+  "kontakDisc": 11,
+  "kontakTot": 15,
+  "suspekDipantau": 1,
+  "suspekDisc": 55,
+  "suspekTot": 56,
+  "posAktif": 0,
+  "posSmbh": 4,
+  "posMeninggal": 0,
+  "posTot": 4
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c34ee"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Maleer",
+  "kodeBPS": "3273160004",
+  "kontakDipantau": 0,
+  "kontakDisc": 16,
+  "kontakTot": 16,
+  "suspekDipantau": 1,
+  "suspekDisc": 27,
+  "suspekTot": 28,
+  "posAktif": 0,
+  "posSmbh": 6,
+  "posMeninggal": 0,
+  "posTot": 6
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c34ef"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Samoja",
+  "kodeBPS": "3273160006",
+  "kontakDipantau": 0,
+  "kontakDisc": 8,
+  "kontakTot": 8,
+  "suspekDipantau": 0,
+  "suspekDisc": 27,
+  "suspekTot": 27,
+  "posAktif": 1,
+  "posSmbh": 1,
+  "posMeninggal": 0,
+  "posTot": 2
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c34f0"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Babakan Asih",
+  "kodeBPS": "3273030003",
+  "kontakDipantau": 1,
+  "kontakDisc": 13,
+  "kontakTot": 14,
+  "suspekDipantau": 2,
+  "suspekDisc": 38,
+  "suspekTot": 40,
+  "posAktif": 0,
+  "posSmbh": 8,
+  "posMeninggal": 0,
+  "posTot": 8
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c34f1"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Babakan Tarogong",
+  "kodeBPS": "3273030004",
+  "kontakDipantau": 0,
+  "kontakDisc": 6,
+  "kontakTot": 6,
+  "suspekDipantau": 4,
+  "suspekDisc": 40,
+  "suspekTot": 44,
+  "posAktif": 3,
+  "posSmbh": 0,
+  "posMeninggal": 0,
+  "posTot": 3
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c34f2"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Jamika",
+  "kodeBPS": "3273030005",
+  "kontakDipantau": 0,
+  "kontakDisc": 32,
+  "kontakTot": 32,
+  "suspekDipantau": 7,
+  "suspekDisc": 239,
+  "suspekTot": 246,
+  "posAktif": 1,
+  "posSmbh": 11,
+  "posMeninggal": 2,
+  "posTot": 14
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c34f3"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Kopo",
+  "kodeBPS": "3273030001",
+  "kontakDipantau": 0,
+  "kontakDisc": 17,
+  "kontakTot": 17,
+  "suspekDipantau": 2,
+  "suspekDisc": 47,
+  "suspekTot": 49,
+  "posAktif": 4,
+  "posSmbh": 3,
+  "posMeninggal": 1,
+  "posTot": 8
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c34f4"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Suka Asih",
+  "kodeBPS": "3273030002",
+  "kontakDipantau": 0,
+  "kontakDisc": 3,
+  "kontakTot": 3,
+  "suspekDipantau": 2,
+  "suspekDisc": 17,
+  "suspekTot": 19,
+  "posAktif": 1,
+  "posSmbh": 7,
+  "posMeninggal": 1,
+  "posTot": 9
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c34f5"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Cibaduyut",
+  "kodeBPS": "3273040004",
+  "kontakDipantau": 0,
+  "kontakDisc": 5,
+  "kontakTot": 5,
+  "suspekDipantau": 0,
+  "suspekDisc": 4,
+  "suspekTot": 4,
+  "posAktif": 0,
+  "posSmbh": 2,
+  "posMeninggal": 0,
+  "posTot": 2
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c34f6"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Cibaduyut Kidul",
+  "kodeBPS": "3273040001",
+  "kontakDipantau": 0,
+  "kontakDisc": 6,
+  "kontakTot": 6,
+  "suspekDipantau": 0,
+  "suspekDisc": 9,
+  "suspekTot": 9,
+  "posAktif": 0,
+  "posSmbh": 2,
+  "posMeninggal": 1,
+  "posTot": 3
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c34f7"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Cibaduyut Wetan",
+  "kodeBPS": "3273040002",
+  "kontakDipantau": 0,
+  "kontakDisc": 0,
+  "kontakTot": 0,
+  "suspekDipantau": 0,
+  "suspekDisc": 15,
+  "suspekTot": 15,
+  "posAktif": 0,
+  "posSmbh": 3,
+  "posMeninggal": 2,
+  "posTot": 5
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c34f8"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Kebonlega",
+  "kodeBPS": "3273040005",
+  "kontakDipantau": 2,
+  "kontakDisc": 29,
+  "kontakTot": 31,
+  "suspekDipantau": 3,
+  "suspekDisc": 50,
+  "suspekTot": 53,
+  "posAktif": 1,
+  "posSmbh": 6,
+  "posMeninggal": 0,
+  "posTot": 7
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c34f9"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Mekarwangi",
+  "kodeBPS": "3273040003",
+  "kontakDipantau": 1,
+  "kontakDisc": 2,
+  "kontakTot": 3,
+  "suspekDipantau": 0,
+  "suspekDisc": 12,
+  "suspekTot": 12,
+  "posAktif": 0,
+  "posSmbh": 3,
+  "posMeninggal": 0,
+  "posTot": 3
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c34fa"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Situsaeur",
+  "kodeBPS": "3273040006",
+  "kontakDipantau": 6,
+  "kontakDisc": 69,
+  "kontakTot": 75,
+  "suspekDipantau": 2,
+  "suspekDisc": 48,
+  "suspekTot": 50,
+  "posAktif": 9,
+  "posSmbh": 22,
+  "posMeninggal": 1,
+  "posTot": 32
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c34fb"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Cijawura",
+  "kodeBPS": "3273090001",
+  "kontakDipantau": 1,
+  "kontakDisc": 28,
+  "kontakTot": 29,
+  "suspekDipantau": 8,
+  "suspekDisc": 71,
+  "suspekTot": 79,
+  "posAktif": 3,
+  "posSmbh": 13,
+  "posMeninggal": 0,
+  "posTot": 16
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c34fc"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Jatisari",
+  "kodeBPS": "3273090004",
+  "kontakDipantau": 0,
+  "kontakDisc": 7,
+  "kontakTot": 7,
+  "suspekDipantau": 1,
+  "suspekDisc": 40,
+  "suspekTot": 41,
+  "posAktif": 0,
+  "posSmbh": 9,
+  "posMeninggal": 0,
+  "posTot": 9
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c34fd"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Margasari",
+  "kodeBPS": "3273090002",
+  "kontakDipantau": 0,
+  "kontakDisc": 65,
+  "kontakTot": 65,
+  "suspekDipantau": 3,
+  "suspekDisc": 70,
+  "suspekTot": 73,
+  "posAktif": 2,
+  "posSmbh": 18,
+  "posMeninggal": 0,
+  "posTot": 20
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c34fe"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Sekejati",
+  "kodeBPS": "3273090003",
+  "kontakDipantau": 11,
+  "kontakDisc": 42,
+  "kontakTot": 53,
+  "suspekDipantau": 5,
+  "suspekDisc": 55,
+  "suspekTot": 60,
+  "posAktif": 5,
+  "posSmbh": 27,
+  "posMeninggal": 1,
+  "posTot": 33
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c34ff"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Cigadung",
+  "kodeBPS": "3273220004",
+  "kontakDipantau": 0,
+  "kontakDisc": 33,
+  "kontakTot": 33,
+  "suspekDipantau": 2,
+  "suspekDisc": 40,
+  "suspekTot": 42,
+  "posAktif": 0,
+  "posSmbh": 24,
+  "posMeninggal": 2,
+  "posTot": 26
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c3500"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Cihaurgeulis",
+  "kodeBPS": "3273220001",
+  "kontakDipantau": 0,
+  "kontakDisc": 13,
+  "kontakTot": 13,
+  "suspekDipantau": 3,
+  "suspekDisc": 37,
+  "suspekTot": 40,
+  "posAktif": 4,
+  "posSmbh": 3,
+  "posMeninggal": 1,
+  "posTot": 8
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c3501"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Neglasari",
+  "kodeBPS": "3273220003",
+  "kontakDipantau": 0,
+  "kontakDisc": 29,
+  "kontakTot": 29,
+  "suspekDipantau": 3,
+  "suspekDisc": 36,
+  "suspekTot": 39,
+  "posAktif": 0,
+  "posSmbh": 7,
+  "posMeninggal": 0,
+  "posTot": 7
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c3502"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Sukaluyu",
+  "kodeBPS": "3273220002",
+  "kontakDipantau": 0,
+  "kontakDisc": 85,
+  "kontakTot": 85,
+  "suspekDipantau": 2,
+  "suspekDisc": 44,
+  "suspekTot": 46,
+  "posAktif": 0,
+  "posSmbh": 12,
+  "posMeninggal": 1,
+  "posTot": 13
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c3503"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Cicadas",
+  "kodeBPS": "3273210002",
+  "kontakDipantau": 15,
+  "kontakDisc": 38,
+  "kontakTot": 53,
+  "suspekDipantau": 5,
+  "suspekDisc": 94,
+  "suspekTot": 99,
+  "posAktif": 8,
+  "posSmbh": 7,
+  "posMeninggal": 0,
+  "posTot": 15
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c3504"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Cikutra",
+  "kodeBPS": "3273210003",
+  "kontakDipantau": 13,
+  "kontakDisc": 21,
+  "kontakTot": 34,
+  "suspekDipantau": 5,
+  "suspekDisc": 66,
+  "suspekTot": 71,
+  "posAktif": 1,
+  "posSmbh": 6,
+  "posMeninggal": 1,
+  "posTot": 8
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c3505"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Padasuka",
+  "kodeBPS": "3273210004",
+  "kontakDipantau": 4,
+  "kontakDisc": 61,
+  "kontakTot": 65,
+  "suspekDipantau": 4,
+  "suspekDisc": 40,
+  "suspekTot": 44,
+  "posAktif": 4,
+  "posSmbh": 4,
+  "posMeninggal": 0,
+  "posTot": 8
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c3506"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Pasirlayung",
+  "kodeBPS": "3273210005",
+  "kontakDipantau": 1,
+  "kontakDisc": 105,
+  "kontakTot": 106,
+  "suspekDipantau": 2,
+  "suspekDisc": 44,
+  "suspekTot": 46,
+  "posAktif": 1,
+  "posSmbh": 6,
+  "posMeninggal": 0,
+  "posTot": 7
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c3507"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Sukamaju",
+  "kodeBPS": "3273210001",
+  "kontakDipantau": 0,
+  "kontakDisc": 29,
+  "kontakTot": 29,
+  "suspekDipantau": 2,
+  "suspekDisc": 43,
+  "suspekTot": 45,
+  "posAktif": 0,
+  "posSmbh": 3,
+  "posMeninggal": 2,
+  "posTot": 5
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c3508"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Sukapada",
+  "kodeBPS": "3273210006",
+  "kontakDipantau": 1,
+  "kontakDisc": 70,
+  "kontakTot": 71,
+  "suspekDipantau": 5,
+  "suspekDisc": 42,
+  "suspekTot": 47,
+  "posAktif": 0,
+  "posSmbh": 7,
+  "posMeninggal": 0,
+  "posTot": 7
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c3509"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Cipadung",
+  "kodeBPS": "3273110004",
+  "kontakDipantau": 0,
+  "kontakDisc": 115,
+  "kontakTot": 115,
+  "suspekDipantau": 1,
+  "suspekDisc": 46,
+  "suspekTot": 47,
+  "posAktif": 0,
+  "posSmbh": 23,
+  "posMeninggal": 0,
+  "posTot": 23
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c350a"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Cisurupan",
+  "kodeBPS": "3273110006",
+  "kontakDipantau": 0,
+  "kontakDisc": 66,
+  "kontakTot": 66,
+  "suspekDipantau": 2,
+  "suspekDisc": 46,
+  "suspekTot": 48,
+  "posAktif": 1,
+  "posSmbh": 5,
+  "posMeninggal": 1,
+  "posTot": 7
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c350b"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Palasari",
+  "kodeBPS": "3273110005",
+  "kontakDipantau": 3,
+  "kontakDisc": 66,
+  "kontakTot": 69,
+  "suspekDipantau": 1,
+  "suspekDisc": 47,
+  "suspekTot": 48,
+  "posAktif": 1,
+  "posSmbh": 11,
+  "posMeninggal": 1,
+  "posTot": 13
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c350c"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Pasirbiru",
+  "kodeBPS": "3273110003",
+  "kontakDipantau": 0,
+  "kontakDisc": 19,
+  "kontakTot": 19,
+  "suspekDipantau": 0,
+  "suspekDisc": 24,
+  "suspekTot": 24,
+  "posAktif": 0,
+  "posSmbh": 5,
+  "posMeninggal": 0,
+  "posTot": 5
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c350d"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Arjuna",
+  "kodeBPS": "3273190001",
+  "kontakDipantau": 0,
+  "kontakDisc": 59,
+  "kontakTot": 59,
+  "suspekDipantau": 4,
+  "suspekDisc": 31,
+  "suspekTot": 35,
+  "posAktif": 1,
+  "posSmbh": 19,
+  "posMeninggal": 3,
+  "posTot": 23
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c350e"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Husen Sastranegara",
+  "kodeBPS": "3273190005",
+  "kontakDipantau": 0,
+  "kontakDisc": 8,
+  "kontakTot": 8,
+  "suspekDipantau": 2,
+  "suspekDisc": 16,
+  "suspekTot": 18,
+  "posAktif": 0,
+  "posSmbh": 5,
+  "posMeninggal": 0,
+  "posTot": 5
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c350f"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Pajajaran",
+  "kodeBPS": "3273190004",
+  "kontakDipantau": 22,
+  "kontakDisc": 65,
+  "kontakTot": 87,
+  "suspekDipantau": 6,
+  "suspekDisc": 56,
+  "suspekTot": 62,
+  "posAktif": 5,
+  "posSmbh": 14,
+  "posMeninggal": 0,
+  "posTot": 19
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c3510"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Pamoyanan",
+  "kodeBPS": "3273190003",
+  "kontakDipantau": 0,
+  "kontakDisc": 27,
+  "kontakTot": 27,
+  "suspekDipantau": 0,
+  "suspekDisc": 10,
+  "suspekTot": 10,
+  "posAktif": 0,
+  "posSmbh": 4,
+  "posMeninggal": 1,
+  "posTot": 5
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c3511"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Pasirkaliki",
+  "kodeBPS": "3273190002",
+  "kontakDipantau": 0,
+  "kontakDisc": 30,
+  "kontakTot": 30,
+  "suspekDipantau": 4,
+  "suspekDisc": 38,
+  "suspekTot": 42,
+  "posAktif": 0,
+  "posSmbh": 6,
+  "posMeninggal": 0,
+  "posTot": 6
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c3512"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Sukaraja",
+  "kodeBPS": "3273190006",
+  "kontakDipantau": 4,
+  "kontakDisc": 131,
+  "kontakTot": 135,
+  "suspekDipantau": 3,
+  "suspekDisc": 51,
+  "suspekTot": 54,
+  "posAktif": 3,
+  "posSmbh": 33,
+  "posMeninggal": 2,
+  "posTot": 38
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c3513"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Ciumbuleuit",
+  "kodeBPS": "3273260002",
+  "kontakDipantau": 0,
+  "kontakDisc": 24,
+  "kontakTot": 24,
+  "suspekDipantau": 0,
+  "suspekDisc": 55,
+  "suspekTot": 55,
+  "posAktif": 0,
+  "posSmbh": 12,
+  "posMeninggal": 0,
+  "posTot": 12
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c3514"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Hegarmanah",
+  "kodeBPS": "3273260001",
+  "kontakDipantau": 0,
+  "kontakDisc": 70,
+  "kontakTot": 70,
+  "suspekDipantau": 1,
+  "suspekDisc": 41,
+  "suspekTot": 42,
+  "posAktif": 0,
+  "posSmbh": 8,
+  "posMeninggal": 0,
+  "posTot": 8
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c3515"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Ledeng",
+  "kodeBPS": "3273260003",
+  "kontakDipantau": 4,
+  "kontakDisc": 5,
+  "kontakTot": 9,
+  "suspekDipantau": 1,
+  "suspekDisc": 24,
+  "suspekTot": 25,
+  "posAktif": 5,
+  "posSmbh": 12,
+  "posMeninggal": 1,
+  "posTot": 18
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c3516"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Babakan Penghulu",
+  "kodeBPS": "3273121002",
+  "kontakDipantau": 0,
+  "kontakDisc": 11,
+  "kontakTot": 11,
+  "suspekDipantau": 1,
+  "suspekDisc": 20,
+  "suspekTot": 21,
+  "posAktif": 0,
+  "posSmbh": 0,
+  "posMeninggal": 0,
+  "posTot": 0
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c3517"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Cisaranten Wetan",
+  "kodeBPS": "3273121001",
+  "kontakDipantau": 1,
+  "kontakDisc": 14,
+  "kontakTot": 15,
+  "suspekDipantau": 0,
+  "suspekDisc": 14,
+  "suspekTot": 14,
+  "posAktif": 0,
+  "posSmbh": 4,
+  "posMeninggal": 0,
+  "posTot": 4
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c3518"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Pakemitan",
+  "kodeBPS": "3273121003",
+  "kontakDipantau": 1,
+  "kontakDisc": 14,
+  "kontakTot": 15,
+  "suspekDipantau": 0,
+  "suspekDisc": 14,
+  "suspekTot": 14,
+  "posAktif": 4,
+  "posSmbh": 7,
+  "posMeninggal": 0,
+  "posTot": 11
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c3519"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Sukamulya",
+  "kodeBPS": "3273121004",
+  "kontakDipantau": 0,
+  "kontakDisc": 0,
+  "kontakTot": 0,
+  "suspekDipantau": 0,
+  "suspekDisc": 12,
+  "suspekTot": 12,
+  "posAktif": 0,
+  "posSmbh": 1,
+  "posMeninggal": 0,
+  "posTot": 1
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c351a"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Cipaganti",
+  "kodeBPS": "3273230001",
+  "kontakDipantau": 0,
+  "kontakDisc": 15,
+  "kontakTot": 15,
+  "suspekDipantau": 0,
+  "suspekDisc": 24,
+  "suspekTot": 24,
+  "posAktif": 0,
+  "posSmbh": 6,
+  "posMeninggal": 0,
+  "posTot": 6
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c351b"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Dago",
+  "kodeBPS": "3273230006",
+  "kontakDipantau": 3,
+  "kontakDisc": 59,
+  "kontakTot": 62,
+  "suspekDipantau": 7,
+  "suspekDisc": 103,
+  "suspekTot": 110,
+  "posAktif": 9,
+  "posSmbh": 22,
+  "posMeninggal": 0,
+  "posTot": 31
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c351c"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Lebak Siliwangi",
+  "kodeBPS": "3273230002",
+  "kontakDipantau": 0,
+  "kontakDisc": 2,
+  "kontakTot": 2,
+  "suspekDipantau": 0,
+  "suspekDisc": 14,
+  "suspekTot": 14,
+  "posAktif": 0,
+  "posSmbh": 3,
+  "posMeninggal": 0,
+  "posTot": 3
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c351d"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Lebakgede",
+  "kodeBPS": "3273230003",
+  "kontakDipantau": 0,
+  "kontakDisc": 38,
+  "kontakTot": 38,
+  "suspekDipantau": 5,
+  "suspekDisc": 64,
+  "suspekTot": 69,
+  "posAktif": 1,
+  "posSmbh": 5,
+  "posMeninggal": 0,
+  "posTot": 6
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c351e"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Sadang Serang",
+  "kodeBPS": "3273230004",
+  "kontakDipantau": 0,
+  "kontakDisc": 106,
+  "kontakTot": 106,
+  "suspekDipantau": 3,
+  "suspekDisc": 39,
+  "suspekTot": 42,
+  "posAktif": 0,
+  "posSmbh": 18,
+  "posMeninggal": 0,
+  "posTot": 18
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c351f"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Sekeloa",
+  "kodeBPS": "3273230005",
+  "kontakDipantau": 0,
+  "kontakDisc": 48,
+  "kontakTot": 48,
+  "suspekDipantau": 1,
+  "suspekDisc": 112,
+  "suspekTot": 113,
+  "posAktif": 9,
+  "posSmbh": 27,
+  "posMeninggal": 0,
+  "posTot": 36
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c3520"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Cimincrang",
+  "kodeBPS": "3273101004",
+  "kontakDipantau": 0,
+  "kontakDisc": 10,
+  "kontakTot": 10,
+  "suspekDipantau": 0,
+  "suspekDisc": 16,
+  "suspekTot": 16,
+  "posAktif": 0,
+  "posSmbh": 0,
+  "posMeninggal": 0,
+  "posTot": 0
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c3521"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Cisaranten Kidul",
+  "kodeBPS": "3273101003",
+  "kontakDipantau": 0,
+  "kontakDisc": 41,
+  "kontakTot": 41,
+  "suspekDipantau": 2,
+  "suspekDisc": 65,
+  "suspekTot": 67,
+  "posAktif": 6,
+  "posSmbh": 2,
+  "posMeninggal": 0,
+  "posTot": 8
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c3522"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Rancabolang",
+  "kodeBPS": "3273101001",
+  "kontakDipantau": 14,
+  "kontakDisc": 26,
+  "kontakTot": 40,
+  "suspekDipantau": 2,
+  "suspekDisc": 36,
+  "suspekTot": 38,
+  "posAktif": 5,
+  "posSmbh": 14,
+  "posMeninggal": 2,
+  "posTot": 21
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c3523"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Rancanumpang",
+  "kodeBPS": "3273101002",
+  "kontakDipantau": 0,
+  "kontakDisc": 16,
+  "kontakTot": 16,
+  "suspekDipantau": 2,
+  "suspekDisc": 19,
+  "suspekTot": 21,
+  "posAktif": 1,
+  "posSmbh": 6,
+  "posMeninggal": 0,
+  "posTot": 7
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c3524"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Babakan Sari",
+  "kodeBPS": "3273150004",
+  "kontakDipantau": 10,
+  "kontakDisc": 93,
+  "kontakTot": 103,
+  "suspekDipantau": 2,
+  "suspekDisc": 115,
+  "suspekTot": 117,
+  "posAktif": 11,
+  "posSmbh": 24,
+  "posMeninggal": 0,
+  "posTot": 35
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c3525"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Babakan Surabaya",
+  "kodeBPS": "3273150005",
+  "kontakDipantau": 11,
+  "kontakDisc": 77,
+  "kontakTot": 88,
+  "suspekDipantau": 2,
+  "suspekDisc": 78,
+  "suspekTot": 80,
+  "posAktif": 0,
+  "posSmbh": 6,
+  "posMeninggal": 0,
+  "posTot": 6
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c3526"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Cicaheum",
+  "kodeBPS": "3273150006",
+  "kontakDipantau": 2,
+  "kontakDisc": 23,
+  "kontakTot": 25,
+  "suspekDipantau": 2,
+  "suspekDisc": 38,
+  "suspekTot": 40,
+  "posAktif": 0,
+  "posSmbh": 6,
+  "posMeninggal": 1,
+  "posTot": 7
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c3527"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Kebon Kangkung",
+  "kodeBPS": "3273150001",
+  "kontakDipantau": 0,
+  "kontakDisc": 21,
+  "kontakTot": 21,
+  "suspekDipantau": 1,
+  "suspekDisc": 39,
+  "suspekTot": 40,
+  "posAktif": 0,
+  "posSmbh": 7,
+  "posMeninggal": 1,
+  "posTot": 8
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c3528"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Kebonjayanti",
+  "kodeBPS": "3273150003",
+  "kontakDipantau": 0,
+  "kontakDisc": 14,
+  "kontakTot": 14,
+  "suspekDipantau": 0,
+  "suspekDisc": 37,
+  "suspekTot": 37,
+  "posAktif": 0,
+  "posSmbh": 3,
+  "posMeninggal": 0,
+  "posTot": 3
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c3529"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Sukapura",
+  "kodeBPS": "3273150002",
+  "kontakDipantau": 0,
+  "kontakDisc": 59,
+  "kontakTot": 59,
+  "suspekDipantau": 3,
+  "suspekDisc": 93,
+  "suspekTot": 96,
+  "posAktif": 0,
+  "posSmbh": 7,
+  "posMeninggal": 0,
+  "posTot": 7
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c352a"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Burangrang",
+  "kodeBPS": "3273070005",
+  "kontakDipantau": 1,
+  "kontakDisc": 14,
+  "kontakTot": 15,
+  "suspekDipantau": 0,
+  "suspekDisc": 19,
+  "suspekTot": 19,
+  "posAktif": 0,
+  "posSmbh": 2,
+  "posMeninggal": 0,
+  "posTot": 2
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c352b"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Cijagra",
+  "kodeBPS": "3273070001",
+  "kontakDipantau": 0,
+  "kontakDisc": 105,
+  "kontakTot": 105,
+  "suspekDipantau": 0,
+  "suspekDisc": 67,
+  "suspekTot": 67,
+  "posAktif": 1,
+  "posSmbh": 31,
+  "posMeninggal": 1,
+  "posTot": 33
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c352c"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Cikawao",
+  "kodeBPS": "3273070006",
+  "kontakDipantau": 0,
+  "kontakDisc": 12,
+  "kontakTot": 12,
+  "suspekDipantau": 0,
+  "suspekDisc": 8,
+  "suspekTot": 8,
+  "posAktif": 0,
+  "posSmbh": 0,
+  "posMeninggal": 0,
+  "posTot": 0
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c352d"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Lingkar Selatan",
+  "kodeBPS": "3273070003",
+  "kontakDipantau": 1,
+  "kontakDisc": 44,
+  "kontakTot": 45,
+  "suspekDipantau": 2,
+  "suspekDisc": 24,
+  "suspekTot": 26,
+  "posAktif": 1,
+  "posSmbh": 25,
+  "posMeninggal": 2,
+  "posTot": 28
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c352e"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Malabar",
+  "kodeBPS": "3273070004",
+  "kontakDipantau": 1,
+  "kontakDisc": 17,
+  "kontakTot": 18,
+  "suspekDipantau": 0,
+  "suspekDisc": 30,
+  "suspekTot": 30,
+  "posAktif": 1,
+  "posSmbh": 3,
+  "posMeninggal": 0,
+  "posTot": 4
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c352f"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Paledang",
+  "kodeBPS": "3273070007",
+  "kontakDipantau": 0,
+  "kontakDisc": 7,
+  "kontakTot": 7,
+  "suspekDipantau": 0,
+  "suspekDisc": 16,
+  "suspekTot": 16,
+  "posAktif": 1,
+  "posSmbh": 1,
+  "posMeninggal": 0,
+  "posTot": 2
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c3530"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Turangga",
+  "kodeBPS": "3273070002",
+  "kontakDipantau": 0,
+  "kontakDisc": 66,
+  "kontakTot": 66,
+  "suspekDipantau": 1,
+  "suspekDisc": 121,
+  "suspekTot": 122,
+  "posAktif": 6,
+  "posSmbh": 12,
+  "posMeninggal": 1,
+  "posTot": 19
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c3531"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Jatihandap",
+  "kodeBPS": "3273142001",
+  "kontakDipantau": 1,
+  "kontakDisc": 16,
+  "kontakTot": 17,
+  "suspekDipantau": 4,
+  "suspekDisc": 57,
+  "suspekTot": 61,
+  "posAktif": 2,
+  "posSmbh": 9,
+  "posMeninggal": 0,
+  "posTot": 11
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c3532"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Karang Pamulang",
+  "kodeBPS": "3273142002",
+  "kontakDipantau": 0,
+  "kontakDisc": 31,
+  "kontakTot": 31,
+  "suspekDipantau": 1,
+  "suspekDisc": 30,
+  "suspekTot": 31,
+  "posAktif": 1,
+  "posSmbh": 10,
+  "posMeninggal": 0,
+  "posTot": 11
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c3533"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Pasir Impun",
+  "kodeBPS": "3273142004",
+  "kontakDipantau": 10,
+  "kontakDisc": 48,
+  "kontakTot": 58,
+  "suspekDipantau": 1,
+  "suspekDisc": 23,
+  "suspekTot": 24,
+  "posAktif": 0,
+  "posSmbh": 6,
+  "posMeninggal": 0,
+  "posTot": 6
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c3534"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Sindangjaya",
+  "kodeBPS": "3273142003",
+  "kontakDipantau": 0,
+  "kontakDisc": 60,
+  "kontakTot": 60,
+  "suspekDipantau": 0,
+  "suspekDisc": 58,
+  "suspekTot": 58,
+  "posAktif": 0,
+  "posSmbh": 7,
+  "posMeninggal": 0,
+  "posTot": 7
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c3535"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Cipadung Kidul",
+  "kodeBPS": "3273111002",
+  "kontakDipantau": 1,
+  "kontakDisc": 26,
+  "kontakTot": 27,
+  "suspekDipantau": 3,
+  "suspekDisc": 63,
+  "suspekTot": 66,
+  "posAktif": 1,
+  "posSmbh": 6,
+  "posMeninggal": 0,
+  "posTot": 7
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c3536"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Cipadung Kulon",
+  "kodeBPS": "3273111004",
+  "kontakDipantau": 23,
+  "kontakDisc": 106,
+  "kontakTot": 129,
+  "suspekDipantau": 3,
+  "suspekDisc": 73,
+  "suspekTot": 76,
+  "posAktif": 0,
+  "posSmbh": 23,
+  "posMeninggal": 2,
+  "posTot": 25
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c3537"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Cipadung Wetan",
+  "kodeBPS": "3273111003",
+  "kontakDipantau": 0,
+  "kontakDisc": 8,
+  "kontakTot": 8,
+  "suspekDipantau": 0,
+  "suspekDisc": 15,
+  "suspekTot": 15,
+  "posAktif": 0,
+  "posSmbh": 1,
+  "posMeninggal": 0,
+  "posTot": 1
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c3538"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Mekar Mulya",
+  "kodeBPS": "3273111001",
+  "kontakDipantau": 10,
+  "kontakDisc": 49,
+  "kontakTot": 59,
+  "suspekDipantau": 1,
+  "suspekDisc": 30,
+  "suspekTot": 31,
+  "posAktif": 0,
+  "posSmbh": 7,
+  "posMeninggal": 0,
+  "posTot": 7
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c3539"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Cipamokolan",
+  "kodeBPS": "3273100002",
+  "kontakDipantau": 6,
+  "kontakDisc": 49,
+  "kontakTot": 55,
+  "suspekDipantau": 7,
+  "suspekDisc": 90,
+  "suspekTot": 97,
+  "posAktif": 2,
+  "posSmbh": 16,
+  "posMeninggal": 0,
+  "posTot": 18
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c353a"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Derwati",
+  "kodeBPS": "3273100001",
+  "kontakDipantau": 0,
+  "kontakDisc": 44,
+  "kontakTot": 44,
+  "suspekDipantau": 2,
+  "suspekDisc": 71,
+  "suspekTot": 73,
+  "posAktif": 1,
+  "posSmbh": 10,
+  "posMeninggal": 1,
+  "posTot": 12
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c353b"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Manjahlega",
+  "kodeBPS": "3273100005",
+  "kontakDipantau": 11,
+  "kontakDisc": 42,
+  "kontakTot": 53,
+  "suspekDipantau": 8,
+  "suspekDisc": 112,
+  "suspekTot": 120,
+  "posAktif": 5,
+  "posSmbh": 14,
+  "posMeninggal": 0,
+  "posTot": 19
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c353c"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Mekarjaya",
+  "kodeBPS": "3273100006",
+  "kontakDipantau": 1,
+  "kontakDisc": 25,
+  "kontakTot": 26,
+  "suspekDipantau": 4,
+  "suspekDisc": 84,
+  "suspekTot": 88,
+  "posAktif": 3,
+  "posSmbh": 18,
+  "posMeninggal": 0,
+  "posTot": 21
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c353d"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Ancol",
+  "kodeBPS": "3273060003",
+  "kontakDipantau": 0,
+  "kontakDisc": 15,
+  "kontakTot": 15,
+  "suspekDipantau": 3,
+  "suspekDisc": 31,
+  "suspekTot": 34,
+  "posAktif": 0,
+  "posSmbh": 7,
+  "posMeninggal": 1,
+  "posTot": 8
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c353e"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Balonggede",
+  "kodeBPS": "3273060007",
+  "kontakDipantau": 0,
+  "kontakDisc": 8,
+  "kontakTot": 8,
+  "suspekDipantau": 0,
+  "suspekDisc": 26,
+  "suspekTot": 26,
+  "posAktif": 0,
+  "posSmbh": 2,
+  "posMeninggal": 0,
+  "posTot": 2
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c353f"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Ciateul",
+  "kodeBPS": "3273060005",
+  "kontakDipantau": 0,
+  "kontakDisc": 16,
+  "kontakTot": 16,
+  "suspekDipantau": 2,
+  "suspekDisc": 20,
+  "suspekTot": 22,
+  "posAktif": 0,
+  "posSmbh": 5,
+  "posMeninggal": 1,
+  "posTot": 6
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c3540"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Cigereleng",
+  "kodeBPS": "3273060004",
+  "kontakDipantau": 0,
+  "kontakDisc": 15,
+  "kontakTot": 15,
+  "suspekDipantau": 1,
+  "suspekDisc": 39,
+  "suspekTot": 40,
+  "posAktif": 0,
+  "posSmbh": 6,
+  "posMeninggal": 1,
+  "posTot": 7
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c3541"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Ciseureuh",
+  "kodeBPS": "3273060001",
+  "kontakDipantau": 0,
+  "kontakDisc": 11,
+  "kontakTot": 11,
+  "suspekDipantau": 1,
+  "suspekDisc": 12,
+  "suspekTot": 13,
+  "posAktif": 4,
+  "posSmbh": 9,
+  "posMeninggal": 0,
+  "posTot": 13
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c3542"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Pasirluyu",
+  "kodeBPS": "3273060002",
+  "kontakDipantau": 0,
+  "kontakDisc": 22,
+  "kontakTot": 22,
+  "suspekDipantau": 0,
+  "suspekDisc": 32,
+  "suspekTot": 32,
+  "posAktif": 0,
+  "posSmbh": 2,
+  "posMeninggal": 0,
+  "posTot": 2
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c3543"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Pungkur",
+  "kodeBPS": "3273060006",
+  "kontakDipantau": 0,
+  "kontakDisc": 15,
+  "kontakTot": 15,
+  "suspekDipantau": 1,
+  "suspekDisc": 15,
+  "suspekTot": 16,
+  "posAktif": 0,
+  "posSmbh": 3,
+  "posMeninggal": 1,
+  "posTot": 4
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c3544"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Cipedes",
+  "kodeBPS": "3273240004",
+  "kontakDipantau": 0,
+  "kontakDisc": 29,
+  "kontakTot": 29,
+  "suspekDipantau": 3,
+  "suspekDisc": 45,
+  "suspekTot": 48,
+  "posAktif": 2,
+  "posSmbh": 21,
+  "posMeninggal": 1,
+  "posTot": 24
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c3545"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Pasteur",
+  "kodeBPS": "3273240005",
+  "kontakDipantau": 0,
+  "kontakDisc": 49,
+  "kontakTot": 49,
+  "suspekDipantau": 3,
+  "suspekDisc": 19,
+  "suspekTot": 22,
+  "posAktif": 1,
+  "posSmbh": 19,
+  "posMeninggal": 1,
+  "posTot": 21
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c3546"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Sukabungah",
+  "kodeBPS": "3273240003",
+  "kontakDipantau": 0,
+  "kontakDisc": 45,
+  "kontakTot": 45,
+  "suspekDipantau": 4,
+  "suspekDisc": 31,
+  "suspekTot": 35,
+  "posAktif": 0,
+  "posSmbh": 15,
+  "posMeninggal": 0,
+  "posTot": 15
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c3547"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Sukagalih",
+  "kodeBPS": "3273240002",
+  "kontakDipantau": 10,
+  "kontakDisc": 45,
+  "kontakTot": 55,
+  "suspekDipantau": 4,
+  "suspekDisc": 50,
+  "suspekTot": 54,
+  "posAktif": 0,
+  "posSmbh": 13,
+  "posMeninggal": 0,
+  "posTot": 13
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c3548"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Sukawarna",
+  "kodeBPS": "3273240001",
+  "kontakDipantau": 1,
+  "kontakDisc": 34,
+  "kontakTot": 35,
+  "suspekDipantau": 4,
+  "suspekDisc": 41,
+  "suspekTot": 45,
+  "posAktif": 1,
+  "posSmbh": 4,
+  "posMeninggal": 0,
+  "posTot": 5
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c3549"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Gegerkalong",
+  "kodeBPS": "3273250003",
+  "kontakDipantau": 0,
+  "kontakDisc": 45,
+  "kontakTot": 45,
+  "suspekDipantau": 0,
+  "suspekDisc": 95,
+  "suspekTot": 95,
+  "posAktif": 0,
+  "posSmbh": 6,
+  "posMeninggal": 1,
+  "posTot": 7
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c354a"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Isola",
+  "kodeBPS": "3273250004",
+  "kontakDipantau": 10,
+  "kontakDisc": 13,
+  "kontakTot": 23,
+  "suspekDipantau": 0,
+  "suspekDisc": 17,
+  "suspekTot": 17,
+  "posAktif": 1,
+  "posSmbh": 1,
+  "posMeninggal": 0,
+  "posTot": 2
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c354b"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Sarijadi",
+  "kodeBPS": "3273250001",
+  "kontakDipantau": 7,
+  "kontakDisc": 26,
+  "kontakTot": 33,
+  "suspekDipantau": 1,
+  "suspekDisc": 63,
+  "suspekTot": 64,
+  "posAktif": 3,
+  "posSmbh": 13,
+  "posMeninggal": 0,
+  "posTot": 16
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c354c"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Sukarasa",
+  "kodeBPS": "3273250002",
+  "kontakDipantau": 1,
+  "kontakDisc": 71,
+  "kontakTot": 72,
+  "suspekDipantau": 3,
+  "suspekDisc": 38,
+  "suspekTot": 41,
+  "posAktif": 0,
+  "posSmbh": 12,
+  "posMeninggal": 1,
+  "posTot": 13
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c354d"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Babakan Ciamis",
+  "kodeBPS": "3273170004",
+  "kontakDipantau": 4,
+  "kontakDisc": 18,
+  "kontakTot": 22,
+  "suspekDipantau": 5,
+  "suspekDisc": 36,
+  "suspekTot": 41,
+  "posAktif": 2,
+  "posSmbh": 9,
+  "posMeninggal": 0,
+  "posTot": 11
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c354e"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Braga",
+  "kodeBPS": "3273170001",
+  "kontakDipantau": 0,
+  "kontakDisc": 3,
+  "kontakTot": 3,
+  "suspekDipantau": 4,
+  "suspekDisc": 27,
+  "suspekTot": 31,
+  "posAktif": 0,
+  "posSmbh": 1,
+  "posMeninggal": 0,
+  "posTot": 1
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c354f"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Kebon Pisang",
+  "kodeBPS": "3273170002",
+  "kontakDipantau": 3,
+  "kontakDisc": 16,
+  "kontakTot": 19,
+  "suspekDipantau": 2,
+  "suspekDisc": 69,
+  "suspekTot": 71,
+  "posAktif": 4,
+  "posSmbh": 9,
+  "posMeninggal": 2,
+  "posTot": 15
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c3550"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Merdeka",
+  "kodeBPS": "3273170003",
+  "kontakDipantau": 0,
+  "kontakDisc": 40,
+  "kontakTot": 40,
+  "suspekDipantau": 2,
+  "suspekDisc": 60,
+  "suspekTot": 62,
+  "posAktif": 0,
+  "posSmbh": 18,
+  "posMeninggal": 0,
+  "posTot": 18
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c3551"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Cigending",
+  "kodeBPS": "3273120006",
+  "kontakDipantau": 0,
+  "kontakDisc": 6,
+  "kontakTot": 6,
+  "suspekDipantau": 3,
+  "suspekDisc": 42,
+  "suspekTot": 45,
+  "posAktif": 0,
+  "posSmbh": 4,
+  "posMeninggal": 0,
+  "posTot": 4
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c3552"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Pasanggrahan",
+  "kodeBPS": "3273120003",
+  "kontakDipantau": 0,
+  "kontakDisc": 33,
+  "kontakTot": 33,
+  "suspekDipantau": 0,
+  "suspekDisc": 55,
+  "suspekTot": 55,
+  "posAktif": 1,
+  "posSmbh": 6,
+  "posMeninggal": 0,
+  "posTot": 7
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c3553"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Pasir Endah",
+  "kodeBPS": "3273120007",
+  "kontakDipantau": 0,
+  "kontakDisc": 9,
+  "kontakTot": 9,
+  "suspekDipantau": 3,
+  "suspekDisc": 51,
+  "suspekTot": 54,
+  "posAktif": 1,
+  "posSmbh": 5,
+  "posMeninggal": 0,
+  "posTot": 6
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c3554"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Pasir Jati",
+  "kodeBPS": "3273120005",
+  "kontakDipantau": 0,
+  "kontakDisc": 26,
+  "kontakTot": 26,
+  "suspekDipantau": 8,
+  "suspekDisc": 69,
+  "suspekTot": 77,
+  "posAktif": 4,
+  "posSmbh": 3,
+  "posMeninggal": 0,
+  "posTot": 7
+},{
+  "_id": {
+    "$oid": "5fa62361dbb5f9199c9c3555"
+  },
+  "dateReported": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "namaKel": "Pasirwangi",
+  "kodeBPS": "3273120004",
+  "kontakDipantau": 0,
+  "kontakDisc": 21,
+  "kontakTot": 21,
+  "suspekDipantau": 0,
+  "suspekDisc": 33,
+  "suspekTot": 33,
+  "posAktif": 4,
+  "posSmbh": 11,
+  "posMeninggal": 0,
+  "posTot": 15
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c3556"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Campaka",
+  "kodeBPS": "3273180001",
+  "kontakDipantau": "1",
+  "kontakDisc": "27",
+  "kontakTot": "28",
+  "suspekDipantau": "1",
+  "suspekDisc": "25",
+  "suspekTot": "26",
+  "posAktif": "0",
+  "posSmbh": "9",
+  "posMeninggal": "0",
+  "posTot": "9"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c3557"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Ciroyom",
+  "kodeBPS": "3273180005",
+  "kontakDipantau": "0",
+  "kontakDisc": "42",
+  "kontakTot": "42",
+  "suspekDipantau": "5",
+  "suspekDisc": "126",
+  "suspekTot": "131",
+  "posAktif": "0",
+  "posSmbh": "9",
+  "posMeninggal": "0",
+  "posTot": "9"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c3558"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Dunguscariang",
+  "kodeBPS": "3273180004",
+  "kontakDipantau": "2",
+  "kontakDisc": "35",
+  "kontakTot": "37",
+  "suspekDipantau": "1",
+  "suspekDisc": "83",
+  "suspekTot": "84",
+  "posAktif": "2",
+  "posSmbh": "20",
+  "posMeninggal": "3",
+  "posTot": "25"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c3559"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Garuda",
+  "kodeBPS": "3273180003",
+  "kontakDipantau": "19",
+  "kontakDisc": "30",
+  "kontakTot": "49",
+  "suspekDipantau": "4",
+  "suspekDisc": "64",
+  "suspekTot": "68",
+  "posAktif": "1",
+  "posSmbh": "10",
+  "posMeninggal": "2",
+  "posTot": "13"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c355a"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Kebon Jeruk",
+  "kodeBPS": "3273180006",
+  "kontakDipantau": "4",
+  "kontakDisc": "19",
+  "kontakTot": "23",
+  "suspekDipantau": "3",
+  "suspekDisc": "319",
+  "suspekTot": "322",
+  "posAktif": "5",
+  "posSmbh": "6",
+  "posMeninggal": "1",
+  "posTot": "12"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c355b"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Maleber",
+  "kodeBPS": "3273180002",
+  "kontakDipantau": "1",
+  "kontakDisc": "52",
+  "kontakTot": "53",
+  "suspekDipantau": "2",
+  "suspekDisc": "58",
+  "suspekTot": "60",
+  "posAktif": "2",
+  "posSmbh": "11",
+  "posMeninggal": "1",
+  "posTot": "14"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c355c"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Antapani Kidul",
+  "kodeBPS": "3273141001",
+  "kontakDipantau": "9",
+  "kontakDisc": "37",
+  "kontakTot": "46",
+  "suspekDipantau": "7",
+  "suspekDisc": "137",
+  "suspekTot": "144",
+  "posAktif": "4",
+  "posSmbh": "15",
+  "posMeninggal": "0",
+  "posTot": "19"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c355d"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Antapani Kulon",
+  "kodeBPS": "3273141004",
+  "kontakDipantau": "0",
+  "kontakDisc": "35",
+  "kontakTot": "35",
+  "suspekDipantau": "3",
+  "suspekDisc": "63",
+  "suspekTot": "66",
+  "posAktif": "0",
+  "posSmbh": "13",
+  "posMeninggal": "0",
+  "posTot": "13"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c355e"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Antapani Tengah",
+  "kodeBPS": "3273141002",
+  "kontakDipantau": "2",
+  "kontakDisc": "51",
+  "kontakTot": "53",
+  "suspekDipantau": "5",
+  "suspekDisc": "138",
+  "suspekTot": "143",
+  "posAktif": "1",
+  "posSmbh": "13",
+  "posMeninggal": "0",
+  "posTot": "14"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c355f"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Antapani Wetan",
+  "kodeBPS": "3273141003",
+  "kontakDipantau": "0",
+  "kontakDisc": "90",
+  "kontakTot": "90",
+  "suspekDipantau": "1",
+  "suspekDisc": "104",
+  "suspekTot": "105",
+  "posAktif": "1",
+  "posSmbh": "20",
+  "posMeninggal": "0",
+  "posTot": "21"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c3560"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Cisaranten Bina Harapan",
+  "kodeBPS": "3273130002",
+  "kontakDipantau": "0",
+  "kontakDisc": "17",
+  "kontakTot": "17",
+  "suspekDipantau": "0",
+  "suspekDisc": "16",
+  "suspekTot": "16",
+  "posAktif": "3",
+  "posSmbh": "3",
+  "posMeninggal": "0",
+  "posTot": "6"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c3561"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Cisaranten Endah",
+  "kodeBPS": "3273130005",
+  "kontakDipantau": "0",
+  "kontakDisc": "85",
+  "kontakTot": "85",
+  "suspekDipantau": "3",
+  "suspekDisc": "86",
+  "suspekTot": "89",
+  "posAktif": "1",
+  "posSmbh": "30",
+  "posMeninggal": "0",
+  "posTot": "31"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c3562"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Cisaranten Kulon",
+  "kodeBPS": "3273130001",
+  "kontakDipantau": "1",
+  "kontakDisc": "123",
+  "kontakTot": "124",
+  "suspekDipantau": "5",
+  "suspekDisc": "112",
+  "suspekTot": "117",
+  "posAktif": "7",
+  "posSmbh": "23",
+  "posMeninggal": "0",
+  "posTot": "30"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c3563"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Sukamiskin",
+  "kodeBPS": "3273130003",
+  "kontakDipantau": "1",
+  "kontakDisc": "65",
+  "kontakTot": "66",
+  "suspekDipantau": "6",
+  "suspekDisc": "82",
+  "suspekTot": "88",
+  "posAktif": "10",
+  "posSmbh": "25",
+  "posMeninggal": "4",
+  "posTot": "39"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c3564"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Cibadak",
+  "kodeBPS": "3273050005",
+  "kontakDipantau": "19",
+  "kontakDisc": "59",
+  "kontakTot": "78",
+  "suspekDipantau": "2",
+  "suspekDisc": "42",
+  "suspekTot": "44",
+  "posAktif": "2",
+  "posSmbh": "8",
+  "posMeninggal": "0",
+  "posTot": "10"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c3565"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Karang Anyar",
+  "kodeBPS": "3273050006",
+  "kontakDipantau": "0",
+  "kontakDisc": "15",
+  "kontakTot": "15",
+  "suspekDipantau": "0",
+  "suspekDisc": "9",
+  "suspekTot": "9",
+  "posAktif": "0",
+  "posSmbh": "3",
+  "posMeninggal": "0",
+  "posTot": "3"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c3566"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Karasak",
+  "kodeBPS": "3273050001",
+  "kontakDipantau": "0",
+  "kontakDisc": "11",
+  "kontakTot": "11",
+  "suspekDipantau": "1",
+  "suspekDisc": "19",
+  "suspekTot": "20",
+  "posAktif": "0",
+  "posSmbh": "7",
+  "posMeninggal": "0",
+  "posTot": "7"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c3567"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Nyengseret",
+  "kodeBPS": "3273050003",
+  "kontakDipantau": "0",
+  "kontakDisc": "58",
+  "kontakTot": "58",
+  "suspekDipantau": "3",
+  "suspekDisc": "20",
+  "suspekTot": "23",
+  "posAktif": "0",
+  "posSmbh": "7",
+  "posMeninggal": "1",
+  "posTot": "8"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c3568"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Panjunan",
+  "kodeBPS": "3273050004",
+  "kontakDipantau": "0",
+  "kontakDisc": "31",
+  "kontakTot": "31",
+  "suspekDipantau": "0",
+  "suspekDisc": "9",
+  "suspekTot": "9",
+  "posAktif": "0",
+  "posSmbh": "3",
+  "posMeninggal": "1",
+  "posTot": "4"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c3569"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Pelindung Hewan",
+  "kodeBPS": "3273050002",
+  "kontakDipantau": "0",
+  "kontakDisc": "6",
+  "kontakTot": "6",
+  "suspekDipantau": "3",
+  "suspekDisc": "36",
+  "suspekTot": "39",
+  "posAktif": "0",
+  "posSmbh": "11",
+  "posMeninggal": "0",
+  "posTot": "11"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c356a"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Babakan",
+  "kodeBPS": "3273020005",
+  "kontakDipantau": "0",
+  "kontakDisc": "10",
+  "kontakTot": "10",
+  "suspekDipantau": "2",
+  "suspekDisc": "59",
+  "suspekTot": "61",
+  "posAktif": "0",
+  "posSmbh": "2",
+  "posMeninggal": "1",
+  "posTot": "3"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c356b"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Babakan Ciparay",
+  "kodeBPS": "3273020004",
+  "kontakDipantau": "12",
+  "kontakDisc": "53",
+  "kontakTot": "65",
+  "suspekDipantau": "8",
+  "suspekDisc": "221",
+  "suspekTot": "229",
+  "posAktif": "0",
+  "posSmbh": "7",
+  "posMeninggal": "2",
+  "posTot": "9"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c356c"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Cirangrang",
+  "kodeBPS": "3273020002",
+  "kontakDipantau": "0",
+  "kontakDisc": "9",
+  "kontakTot": "9",
+  "suspekDipantau": "0",
+  "suspekDisc": "17",
+  "suspekTot": "17",
+  "posAktif": "0",
+  "posSmbh": "7",
+  "posMeninggal": "0",
+  "posTot": "7"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c356d"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Margahayu Utara",
+  "kodeBPS": "3273020003",
+  "kontakDipantau": "10",
+  "kontakDisc": "40",
+  "kontakTot": "50",
+  "suspekDipantau": "0",
+  "suspekDisc": "95",
+  "suspekTot": "95",
+  "posAktif": "7",
+  "posSmbh": "4",
+  "posMeninggal": "0",
+  "posTot": "11"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c356e"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Margasuka",
+  "kodeBPS": "3273020001",
+  "kontakDipantau": "0",
+  "kontakDisc": "13",
+  "kontakTot": "13",
+  "suspekDipantau": "0",
+  "suspekDisc": "9",
+  "suspekTot": "9",
+  "posAktif": "2",
+  "posSmbh": "3",
+  "posMeninggal": "0",
+  "posTot": "5"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c356f"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Sukahaji",
+  "kodeBPS": "3273020006",
+  "kontakDipantau": "1",
+  "kontakDisc": "7",
+  "kontakTot": "8",
+  "suspekDipantau": "4",
+  "suspekDisc": "71",
+  "suspekTot": "75",
+  "posAktif": "0",
+  "posSmbh": "12",
+  "posMeninggal": "0",
+  "posTot": "12"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c3570"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Batununggal",
+  "kodeBPS": "3273080003",
+  "kontakDipantau": "0",
+  "kontakDisc": "35",
+  "kontakTot": "35",
+  "suspekDipantau": "3",
+  "suspekDisc": "65",
+  "suspekTot": "68",
+  "posAktif": "0",
+  "posSmbh": "12",
+  "posMeninggal": "1",
+  "posTot": "13"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c3571"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Kujangsari",
+  "kodeBPS": "3273080004",
+  "kontakDipantau": "0",
+  "kontakDisc": "36",
+  "kontakTot": "36",
+  "suspekDipantau": "3",
+  "suspekDisc": "53",
+  "suspekTot": "56",
+  "posAktif": "2",
+  "posSmbh": "5",
+  "posMeninggal": "0",
+  "posTot": "7"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c3572"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Mengger",
+  "kodeBPS": "3273080002",
+  "kontakDipantau": "0",
+  "kontakDisc": "63",
+  "kontakTot": "63",
+  "suspekDipantau": "2",
+  "suspekDisc": "270",
+  "suspekTot": "272",
+  "posAktif": "0",
+  "posSmbh": "13",
+  "posMeninggal": "0",
+  "posTot": "13"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c3573"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Wates",
+  "kodeBPS": "3273080001",
+  "kontakDipantau": "0",
+  "kontakDisc": "5",
+  "kontakTot": "5",
+  "suspekDipantau": "0",
+  "suspekDisc": "9",
+  "suspekTot": "9",
+  "posAktif": "0",
+  "posSmbh": "2",
+  "posMeninggal": "0",
+  "posTot": "2"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c3574"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Caringin",
+  "kodeBPS": "3273010005",
+  "kontakDipantau": "1",
+  "kontakDisc": "19",
+  "kontakTot": "20",
+  "suspekDipantau": "1",
+  "suspekDisc": "16",
+  "suspekTot": "17",
+  "posAktif": "2",
+  "posSmbh": "3",
+  "posMeninggal": "0",
+  "posTot": "5"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c3575"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Cibuntu",
+  "kodeBPS": "3273010007",
+  "kontakDipantau": "9",
+  "kontakDisc": "8",
+  "kontakTot": "17",
+  "suspekDipantau": "5",
+  "suspekDisc": "44",
+  "suspekTot": "49",
+  "posAktif": "3",
+  "posSmbh": "7",
+  "posMeninggal": "1",
+  "posTot": "11"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c3576"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Cigondewah Kaler",
+  "kodeBPS": "3273010002",
+  "kontakDipantau": "0",
+  "kontakDisc": "54",
+  "kontakTot": "54",
+  "suspekDipantau": "5",
+  "suspekDisc": "41",
+  "suspekTot": "46",
+  "posAktif": "1",
+  "posSmbh": "3",
+  "posMeninggal": "0",
+  "posTot": "4"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c3577"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Cigondewah Kidul",
+  "kodeBPS": "3273010003",
+  "kontakDipantau": "17",
+  "kontakDisc": "47",
+  "kontakTot": "64",
+  "suspekDipantau": "3",
+  "suspekDisc": "31",
+  "suspekTot": "34",
+  "posAktif": "0",
+  "posSmbh": "6",
+  "posMeninggal": "1",
+  "posTot": "7"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c3578"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Cigondewah Rahayu",
+  "kodeBPS": "3273010004",
+  "kontakDipantau": "1",
+  "kontakDisc": "22",
+  "kontakTot": "23",
+  "suspekDipantau": "0",
+  "suspekDisc": "18",
+  "suspekTot": "18",
+  "posAktif": "0",
+  "posSmbh": "2",
+  "posMeninggal": "0",
+  "posTot": "2"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c3579"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Cijerah",
+  "kodeBPS": "3273010008",
+  "kontakDipantau": "0",
+  "kontakDisc": "86",
+  "kontakTot": "86",
+  "suspekDipantau": "7",
+  "suspekDisc": "58",
+  "suspekTot": "65",
+  "posAktif": "13",
+  "posSmbh": "34",
+  "posMeninggal": "1",
+  "posTot": "48"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c357a"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Gempolsari",
+  "kodeBPS": "3273010001",
+  "kontakDipantau": "1",
+  "kontakDisc": "77",
+  "kontakTot": "78",
+  "suspekDipantau": "0",
+  "suspekDisc": "35",
+  "suspekTot": "35",
+  "posAktif": "0",
+  "posSmbh": "15",
+  "posMeninggal": "1",
+  "posTot": "16"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c357b"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Warung Muncang",
+  "kodeBPS": "3273010006",
+  "kontakDipantau": "4",
+  "kontakDisc": "8",
+  "kontakTot": "12",
+  "suspekDipantau": "0",
+  "suspekDisc": "54",
+  "suspekTot": "54",
+  "posAktif": "4",
+  "posSmbh": "2",
+  "posMeninggal": "0",
+  "posTot": "6"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c357c"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Cihapit",
+  "kodeBPS": "3273200003",
+  "kontakDipantau": "1",
+  "kontakDisc": "10",
+  "kontakTot": "11",
+  "suspekDipantau": "0",
+  "suspekDisc": "32",
+  "suspekTot": "32",
+  "posAktif": "0",
+  "posSmbh": "4",
+  "posMeninggal": "0",
+  "posTot": "4"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c357d"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Citarum",
+  "kodeBPS": "3273200002",
+  "kontakDipantau": "0",
+  "kontakDisc": "3",
+  "kontakTot": "3",
+  "suspekDipantau": "2",
+  "suspekDisc": "22",
+  "suspekTot": "24",
+  "posAktif": "0",
+  "posSmbh": "2",
+  "posMeninggal": "0",
+  "posTot": "2"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c357e"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Tamansari",
+  "kodeBPS": "3273200001",
+  "kontakDipantau": "1",
+  "kontakDisc": "34",
+  "kontakTot": "35",
+  "suspekDipantau": "5",
+  "suspekDisc": "36",
+  "suspekTot": "41",
+  "posAktif": "0",
+  "posSmbh": "6",
+  "posMeninggal": "0",
+  "posTot": "6"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c357f"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Binong",
+  "kodeBPS": "3273160002",
+  "kontakDipantau": "0",
+  "kontakDisc": "42",
+  "kontakTot": "42",
+  "suspekDipantau": "0",
+  "suspekDisc": "36",
+  "suspekTot": "36",
+  "posAktif": "2",
+  "posSmbh": "9",
+  "posMeninggal": "0",
+  "posTot": "11"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c3580"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Cibangkong",
+  "kodeBPS": "3273160005",
+  "kontakDipantau": "0",
+  "kontakDisc": "61",
+  "kontakTot": "61",
+  "suspekDipantau": "1",
+  "suspekDisc": "71",
+  "suspekTot": "72",
+  "posAktif": "0",
+  "posSmbh": "3",
+  "posMeninggal": "1",
+  "posTot": "4"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c3581"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Gumuruh",
+  "kodeBPS": "3273160001",
+  "kontakDipantau": "4",
+  "kontakDisc": "33",
+  "kontakTot": "37",
+  "suspekDipantau": "5",
+  "suspekDisc": "38",
+  "suspekTot": "43",
+  "posAktif": "1",
+  "posSmbh": "6",
+  "posMeninggal": "0",
+  "posTot": "7"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c3582"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Kacapiring",
+  "kodeBPS": "3273160007",
+  "kontakDipantau": "1",
+  "kontakDisc": "11",
+  "kontakTot": "12",
+  "suspekDipantau": "0",
+  "suspekDisc": "29",
+  "suspekTot": "29",
+  "posAktif": "0",
+  "posSmbh": "2",
+  "posMeninggal": "0",
+  "posTot": "2"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c3583"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Kebongedang",
+  "kodeBPS": "3273160003",
+  "kontakDipantau": "0",
+  "kontakDisc": "60",
+  "kontakTot": "60",
+  "suspekDipantau": "0",
+  "suspekDisc": "24",
+  "suspekTot": "24",
+  "posAktif": "0",
+  "posSmbh": "7",
+  "posMeninggal": "0",
+  "posTot": "7"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c3584"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Kebonwaru",
+  "kodeBPS": "3273160008",
+  "kontakDipantau": "4",
+  "kontakDisc": "11",
+  "kontakTot": "15",
+  "suspekDipantau": "2",
+  "suspekDisc": "55",
+  "suspekTot": "57",
+  "posAktif": "0",
+  "posSmbh": "4",
+  "posMeninggal": "0",
+  "posTot": "4"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c3585"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Maleer",
+  "kodeBPS": "3273160004",
+  "kontakDipantau": "0",
+  "kontakDisc": "16",
+  "kontakTot": "16",
+  "suspekDipantau": "1",
+  "suspekDisc": "27",
+  "suspekTot": "28",
+  "posAktif": "0",
+  "posSmbh": "6",
+  "posMeninggal": "0",
+  "posTot": "6"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c3586"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Samoja",
+  "kodeBPS": "3273160006",
+  "kontakDipantau": "0",
+  "kontakDisc": "8",
+  "kontakTot": "8",
+  "suspekDipantau": "0",
+  "suspekDisc": "27",
+  "suspekTot": "27",
+  "posAktif": "0",
+  "posSmbh": "2",
+  "posMeninggal": "0",
+  "posTot": "2"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c3587"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Babakan Asih",
+  "kodeBPS": "3273030003",
+  "kontakDipantau": "1",
+  "kontakDisc": "13",
+  "kontakTot": "14",
+  "suspekDipantau": "2",
+  "suspekDisc": "38",
+  "suspekTot": "40",
+  "posAktif": "0",
+  "posSmbh": "8",
+  "posMeninggal": "0",
+  "posTot": "8"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c3588"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Babakan Tarogong",
+  "kodeBPS": "3273030004",
+  "kontakDipantau": "0",
+  "kontakDisc": "6",
+  "kontakTot": "6",
+  "suspekDipantau": "4",
+  "suspekDisc": "40",
+  "suspekTot": "44",
+  "posAktif": "3",
+  "posSmbh": "0",
+  "posMeninggal": "0",
+  "posTot": "3"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c3589"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Jamika",
+  "kodeBPS": "3273030005",
+  "kontakDipantau": "0",
+  "kontakDisc": "32",
+  "kontakTot": "32",
+  "suspekDipantau": "7",
+  "suspekDisc": "240",
+  "suspekTot": "247",
+  "posAktif": "2",
+  "posSmbh": "11",
+  "posMeninggal": "2",
+  "posTot": "15"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c358a"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Kopo",
+  "kodeBPS": "3273030001",
+  "kontakDipantau": "0",
+  "kontakDisc": "17",
+  "kontakTot": "17",
+  "suspekDipantau": "2",
+  "suspekDisc": "47",
+  "suspekTot": "49",
+  "posAktif": "0",
+  "posSmbh": "7",
+  "posMeninggal": "1",
+  "posTot": "8"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c358b"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Suka Asih",
+  "kodeBPS": "3273030002",
+  "kontakDipantau": "0",
+  "kontakDisc": "3",
+  "kontakTot": "3",
+  "suspekDipantau": "2",
+  "suspekDisc": "17",
+  "suspekTot": "19",
+  "posAktif": "0",
+  "posSmbh": "8",
+  "posMeninggal": "1",
+  "posTot": "9"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c358c"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Cibaduyut",
+  "kodeBPS": "3273040004",
+  "kontakDipantau": "0",
+  "kontakDisc": "5",
+  "kontakTot": "5",
+  "suspekDipantau": "0",
+  "suspekDisc": "4",
+  "suspekTot": "4",
+  "posAktif": "0",
+  "posSmbh": "2",
+  "posMeninggal": "0",
+  "posTot": "2"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c358d"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Cibaduyut Kidul",
+  "kodeBPS": "3273040001",
+  "kontakDipantau": "0",
+  "kontakDisc": "6",
+  "kontakTot": "6",
+  "suspekDipantau": "0",
+  "suspekDisc": "9",
+  "suspekTot": "9",
+  "posAktif": "0",
+  "posSmbh": "2",
+  "posMeninggal": "1",
+  "posTot": "3"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c358e"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Cibaduyut Wetan",
+  "kodeBPS": "3273040002",
+  "kontakDipantau": "0",
+  "kontakDisc": "0",
+  "kontakTot": "0",
+  "suspekDipantau": "0",
+  "suspekDisc": "15",
+  "suspekTot": "15",
+  "posAktif": "0",
+  "posSmbh": "3",
+  "posMeninggal": "2",
+  "posTot": "5"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c358f"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Kebonlega",
+  "kodeBPS": "3273040005",
+  "kontakDipantau": "2",
+  "kontakDisc": "29",
+  "kontakTot": "31",
+  "suspekDipantau": "3",
+  "suspekDisc": "50",
+  "suspekTot": "53",
+  "posAktif": "0",
+  "posSmbh": "7",
+  "posMeninggal": "0",
+  "posTot": "7"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c3590"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Mekarwangi",
+  "kodeBPS": "3273040003",
+  "kontakDipantau": "1",
+  "kontakDisc": "2",
+  "kontakTot": "3",
+  "suspekDipantau": "0",
+  "suspekDisc": "12",
+  "suspekTot": "12",
+  "posAktif": "0",
+  "posSmbh": "3",
+  "posMeninggal": "0",
+  "posTot": "3"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c3591"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Situsaeur",
+  "kodeBPS": "3273040006",
+  "kontakDipantau": "6",
+  "kontakDisc": "69",
+  "kontakTot": "75",
+  "suspekDipantau": "2",
+  "suspekDisc": "48",
+  "suspekTot": "50",
+  "posAktif": "2",
+  "posSmbh": "29",
+  "posMeninggal": "1",
+  "posTot": "32"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c3592"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Cijawura",
+  "kodeBPS": "3273090001",
+  "kontakDipantau": "1",
+  "kontakDisc": "28",
+  "kontakTot": "29",
+  "suspekDipantau": "8",
+  "suspekDisc": "71",
+  "suspekTot": "79",
+  "posAktif": "2",
+  "posSmbh": "14",
+  "posMeninggal": "0",
+  "posTot": "16"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c3593"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Jatisari",
+  "kodeBPS": "3273090004",
+  "kontakDipantau": "0",
+  "kontakDisc": "7",
+  "kontakTot": "7",
+  "suspekDipantau": "1",
+  "suspekDisc": "40",
+  "suspekTot": "41",
+  "posAktif": "0",
+  "posSmbh": "9",
+  "posMeninggal": "0",
+  "posTot": "9"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c3594"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Margasari",
+  "kodeBPS": "3273090002",
+  "kontakDipantau": "0",
+  "kontakDisc": "65",
+  "kontakTot": "65",
+  "suspekDipantau": "4",
+  "suspekDisc": "70",
+  "suspekTot": "74",
+  "posAktif": "2",
+  "posSmbh": "18",
+  "posMeninggal": "0",
+  "posTot": "20"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c3595"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Sekejati",
+  "kodeBPS": "3273090003",
+  "kontakDipantau": "11",
+  "kontakDisc": "42",
+  "kontakTot": "53",
+  "suspekDipantau": "5",
+  "suspekDisc": "55",
+  "suspekTot": "60",
+  "posAktif": "3",
+  "posSmbh": "29",
+  "posMeninggal": "1",
+  "posTot": "33"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c3596"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Cigadung",
+  "kodeBPS": "3273220004",
+  "kontakDipantau": "1",
+  "kontakDisc": "33",
+  "kontakTot": "34",
+  "suspekDipantau": "2",
+  "suspekDisc": "40",
+  "suspekTot": "42",
+  "posAktif": "0",
+  "posSmbh": "24",
+  "posMeninggal": "2",
+  "posTot": "26"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c3597"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Cihaurgeulis",
+  "kodeBPS": "3273220001",
+  "kontakDipantau": "0",
+  "kontakDisc": "13",
+  "kontakTot": "13",
+  "suspekDipantau": "3",
+  "suspekDisc": "37",
+  "suspekTot": "40",
+  "posAktif": "2",
+  "posSmbh": "5",
+  "posMeninggal": "1",
+  "posTot": "8"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c3598"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Neglasari",
+  "kodeBPS": "3273220003",
+  "kontakDipantau": "0",
+  "kontakDisc": "29",
+  "kontakTot": "29",
+  "suspekDipantau": "3",
+  "suspekDisc": "36",
+  "suspekTot": "39",
+  "posAktif": "0",
+  "posSmbh": "7",
+  "posMeninggal": "0",
+  "posTot": "7"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c3599"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Sukaluyu",
+  "kodeBPS": "3273220002",
+  "kontakDipantau": "0",
+  "kontakDisc": "85",
+  "kontakTot": "85",
+  "suspekDipantau": "2",
+  "suspekDisc": "44",
+  "suspekTot": "46",
+  "posAktif": "0",
+  "posSmbh": "12",
+  "posMeninggal": "1",
+  "posTot": "13"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c359a"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Cicadas",
+  "kodeBPS": "3273210002",
+  "kontakDipantau": "15",
+  "kontakDisc": "38",
+  "kontakTot": "53",
+  "suspekDipantau": "5",
+  "suspekDisc": "94",
+  "suspekTot": "99",
+  "posAktif": "5",
+  "posSmbh": "10",
+  "posMeninggal": "0",
+  "posTot": "15"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c359b"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Cikutra",
+  "kodeBPS": "3273210003",
+  "kontakDipantau": "13",
+  "kontakDisc": "21",
+  "kontakTot": "34",
+  "suspekDipantau": "5",
+  "suspekDisc": "66",
+  "suspekTot": "71",
+  "posAktif": "1",
+  "posSmbh": "6",
+  "posMeninggal": "1",
+  "posTot": "8"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c359c"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Padasuka",
+  "kodeBPS": "3273210004",
+  "kontakDipantau": "4",
+  "kontakDisc": "61",
+  "kontakTot": "65",
+  "suspekDipantau": "4",
+  "suspekDisc": "40",
+  "suspekTot": "44",
+  "posAktif": "4",
+  "posSmbh": "4",
+  "posMeninggal": "0",
+  "posTot": "8"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c359d"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Pasirlayung",
+  "kodeBPS": "3273210005",
+  "kontakDipantau": "1",
+  "kontakDisc": "105",
+  "kontakTot": "106",
+  "suspekDipantau": "2",
+  "suspekDisc": "44",
+  "suspekTot": "46",
+  "posAktif": "1",
+  "posSmbh": "6",
+  "posMeninggal": "0",
+  "posTot": "7"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c359e"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Sukamaju",
+  "kodeBPS": "3273210001",
+  "kontakDipantau": "0",
+  "kontakDisc": "29",
+  "kontakTot": "29",
+  "suspekDipantau": "2",
+  "suspekDisc": "43",
+  "suspekTot": "45",
+  "posAktif": "0",
+  "posSmbh": "3",
+  "posMeninggal": "2",
+  "posTot": "5"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c359f"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Sukapada",
+  "kodeBPS": "3273210006",
+  "kontakDipantau": "1",
+  "kontakDisc": "70",
+  "kontakTot": "71",
+  "suspekDipantau": "5",
+  "suspekDisc": "42",
+  "suspekTot": "47",
+  "posAktif": "0",
+  "posSmbh": "7",
+  "posMeninggal": "0",
+  "posTot": "7"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c35a0"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Cipadung",
+  "kodeBPS": "3273110004",
+  "kontakDipantau": "0",
+  "kontakDisc": "115",
+  "kontakTot": "115",
+  "suspekDipantau": "1",
+  "suspekDisc": "46",
+  "suspekTot": "47",
+  "posAktif": "0",
+  "posSmbh": "23",
+  "posMeninggal": "0",
+  "posTot": "23"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c35a1"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Cisurupan",
+  "kodeBPS": "3273110006",
+  "kontakDipantau": "0",
+  "kontakDisc": "66",
+  "kontakTot": "66",
+  "suspekDipantau": "2",
+  "suspekDisc": "46",
+  "suspekTot": "48",
+  "posAktif": "1",
+  "posSmbh": "5",
+  "posMeninggal": "1",
+  "posTot": "7"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c35a2"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Palasari",
+  "kodeBPS": "3273110005",
+  "kontakDipantau": "3",
+  "kontakDisc": "66",
+  "kontakTot": "69",
+  "suspekDipantau": "1",
+  "suspekDisc": "47",
+  "suspekTot": "48",
+  "posAktif": "1",
+  "posSmbh": "11",
+  "posMeninggal": "1",
+  "posTot": "13"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c35a3"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Pasirbiru",
+  "kodeBPS": "3273110003",
+  "kontakDipantau": "0",
+  "kontakDisc": "19",
+  "kontakTot": "19",
+  "suspekDipantau": "0",
+  "suspekDisc": "24",
+  "suspekTot": "24",
+  "posAktif": "0",
+  "posSmbh": "5",
+  "posMeninggal": "0",
+  "posTot": "5"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c35a4"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Arjuna",
+  "kodeBPS": "3273190001",
+  "kontakDipantau": "0",
+  "kontakDisc": "59",
+  "kontakTot": "59",
+  "suspekDipantau": "4",
+  "suspekDisc": "31",
+  "suspekTot": "35",
+  "posAktif": "0",
+  "posSmbh": "20",
+  "posMeninggal": "3",
+  "posTot": "23"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c35a5"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Husen Sastranegara",
+  "kodeBPS": "3273190005",
+  "kontakDipantau": "0",
+  "kontakDisc": "8",
+  "kontakTot": "8",
+  "suspekDipantau": "2",
+  "suspekDisc": "16",
+  "suspekTot": "18",
+  "posAktif": "0",
+  "posSmbh": "5",
+  "posMeninggal": "0",
+  "posTot": "5"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c35a6"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Pajajaran",
+  "kodeBPS": "3273190004",
+  "kontakDipantau": "21",
+  "kontakDisc": "66",
+  "kontakTot": "87",
+  "suspekDipantau": "6",
+  "suspekDisc": "56",
+  "suspekTot": "62",
+  "posAktif": "5",
+  "posSmbh": "14",
+  "posMeninggal": "0",
+  "posTot": "19"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c35a7"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Pamoyanan",
+  "kodeBPS": "3273190003",
+  "kontakDipantau": "0",
+  "kontakDisc": "27",
+  "kontakTot": "27",
+  "suspekDipantau": "0",
+  "suspekDisc": "10",
+  "suspekTot": "10",
+  "posAktif": "0",
+  "posSmbh": "4",
+  "posMeninggal": "1",
+  "posTot": "5"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c35a8"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Pasirkaliki",
+  "kodeBPS": "3273190002",
+  "kontakDipantau": "0",
+  "kontakDisc": "30",
+  "kontakTot": "30",
+  "suspekDipantau": "4",
+  "suspekDisc": "38",
+  "suspekTot": "42",
+  "posAktif": "4",
+  "posSmbh": "6",
+  "posMeninggal": "0",
+  "posTot": "10"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c35a9"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Sukaraja",
+  "kodeBPS": "3273190006",
+  "kontakDipantau": "4",
+  "kontakDisc": "131",
+  "kontakTot": "135",
+  "suspekDipantau": "4",
+  "suspekDisc": "52",
+  "suspekTot": "56",
+  "posAktif": "1",
+  "posSmbh": "33",
+  "posMeninggal": "2",
+  "posTot": "36"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c35aa"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Ciumbuleuit",
+  "kodeBPS": "3273260002",
+  "kontakDipantau": "0",
+  "kontakDisc": "24",
+  "kontakTot": "24",
+  "suspekDipantau": "0",
+  "suspekDisc": "55",
+  "suspekTot": "55",
+  "posAktif": "0",
+  "posSmbh": "12",
+  "posMeninggal": "0",
+  "posTot": "12"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c35ab"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Hegarmanah",
+  "kodeBPS": "3273260001",
+  "kontakDipantau": "0",
+  "kontakDisc": "70",
+  "kontakTot": "70",
+  "suspekDipantau": "1",
+  "suspekDisc": "41",
+  "suspekTot": "42",
+  "posAktif": "1",
+  "posSmbh": "8",
+  "posMeninggal": "0",
+  "posTot": "9"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c35ac"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Ledeng",
+  "kodeBPS": "3273260003",
+  "kontakDipantau": "4",
+  "kontakDisc": "5",
+  "kontakTot": "9",
+  "suspekDipantau": "1",
+  "suspekDisc": "24",
+  "suspekTot": "25",
+  "posAktif": "3",
+  "posSmbh": "13",
+  "posMeninggal": "1",
+  "posTot": "17"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c35ad"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Babakan Penghulu",
+  "kodeBPS": "3273121002",
+  "kontakDipantau": "0",
+  "kontakDisc": "11",
+  "kontakTot": "11",
+  "suspekDipantau": "1",
+  "suspekDisc": "20",
+  "suspekTot": "21",
+  "posAktif": "0",
+  "posSmbh": "0",
+  "posMeninggal": "0",
+  "posTot": "0"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c35ae"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Cisaranten Wetan",
+  "kodeBPS": "3273121001",
+  "kontakDipantau": "1",
+  "kontakDisc": "14",
+  "kontakTot": "15",
+  "suspekDipantau": "0",
+  "suspekDisc": "14",
+  "suspekTot": "14",
+  "posAktif": "0",
+  "posSmbh": "4",
+  "posMeninggal": "0",
+  "posTot": "4"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c35af"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Pakemitan",
+  "kodeBPS": "3273121003",
+  "kontakDipantau": "1",
+  "kontakDisc": "14",
+  "kontakTot": "15",
+  "suspekDipantau": "0",
+  "suspekDisc": "14",
+  "suspekTot": "14",
+  "posAktif": "3",
+  "posSmbh": "8",
+  "posMeninggal": "0",
+  "posTot": "11"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c35b0"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Sukamulya",
+  "kodeBPS": "3273121004",
+  "kontakDipantau": "0",
+  "kontakDisc": "0",
+  "kontakTot": "0",
+  "suspekDipantau": "0",
+  "suspekDisc": "12",
+  "suspekTot": "12",
+  "posAktif": "0",
+  "posSmbh": "1",
+  "posMeninggal": "0",
+  "posTot": "1"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c35b1"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Cipaganti",
+  "kodeBPS": "3273230001",
+  "kontakDipantau": "0",
+  "kontakDisc": "15",
+  "kontakTot": "15",
+  "suspekDipantau": "0",
+  "suspekDisc": "24",
+  "suspekTot": "24",
+  "posAktif": "0",
+  "posSmbh": "6",
+  "posMeninggal": "0",
+  "posTot": "6"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c35b2"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Dago",
+  "kodeBPS": "3273230006",
+  "kontakDipantau": "3",
+  "kontakDisc": "59",
+  "kontakTot": "62",
+  "suspekDipantau": "7",
+  "suspekDisc": "103",
+  "suspekTot": "110",
+  "posAktif": "8",
+  "posSmbh": "24",
+  "posMeninggal": "0",
+  "posTot": "32"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c35b3"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Lebak Siliwangi",
+  "kodeBPS": "3273230002",
+  "kontakDipantau": "0",
+  "kontakDisc": "2",
+  "kontakTot": "2",
+  "suspekDipantau": "0",
+  "suspekDisc": "14",
+  "suspekTot": "14",
+  "posAktif": "0",
+  "posSmbh": "3",
+  "posMeninggal": "0",
+  "posTot": "3"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c35b4"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Lebakgede",
+  "kodeBPS": "3273230003",
+  "kontakDipantau": "0",
+  "kontakDisc": "38",
+  "kontakTot": "38",
+  "suspekDipantau": "5",
+  "suspekDisc": "64",
+  "suspekTot": "69",
+  "posAktif": "1",
+  "posSmbh": "5",
+  "posMeninggal": "0",
+  "posTot": "6"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c35b5"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Sadang Serang",
+  "kodeBPS": "3273230004",
+  "kontakDipantau": "0",
+  "kontakDisc": "106",
+  "kontakTot": "106",
+  "suspekDipantau": "3",
+  "suspekDisc": "39",
+  "suspekTot": "42",
+  "posAktif": "0",
+  "posSmbh": "18",
+  "posMeninggal": "0",
+  "posTot": "18"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c35b6"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Sekeloa",
+  "kodeBPS": "3273230005",
+  "kontakDipantau": "0",
+  "kontakDisc": "48",
+  "kontakTot": "48",
+  "suspekDipantau": "2",
+  "suspekDisc": "112",
+  "suspekTot": "114",
+  "posAktif": "9",
+  "posSmbh": "27",
+  "posMeninggal": "0",
+  "posTot": "36"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c35b7"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Cimincrang",
+  "kodeBPS": "3273101004",
+  "kontakDipantau": "0",
+  "kontakDisc": "10",
+  "kontakTot": "10",
+  "suspekDipantau": "0",
+  "suspekDisc": "16",
+  "suspekTot": "16",
+  "posAktif": "0",
+  "posSmbh": "0",
+  "posMeninggal": "0",
+  "posTot": "0"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c35b8"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Cisaranten Kidul",
+  "kodeBPS": "3273101003",
+  "kontakDipantau": "0",
+  "kontakDisc": "41",
+  "kontakTot": "41",
+  "suspekDipantau": "2",
+  "suspekDisc": "65",
+  "suspekTot": "67",
+  "posAktif": "3",
+  "posSmbh": "5",
+  "posMeninggal": "0",
+  "posTot": "8"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c35b9"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Rancabolang",
+  "kodeBPS": "3273101001",
+  "kontakDipantau": "14",
+  "kontakDisc": "26",
+  "kontakTot": "40",
+  "suspekDipantau": "2",
+  "suspekDisc": "36",
+  "suspekTot": "38",
+  "posAktif": "3",
+  "posSmbh": "16",
+  "posMeninggal": "2",
+  "posTot": "21"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c35ba"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Rancanumpang",
+  "kodeBPS": "3273101002",
+  "kontakDipantau": "0",
+  "kontakDisc": "16",
+  "kontakTot": "16",
+  "suspekDipantau": "2",
+  "suspekDisc": "19",
+  "suspekTot": "21",
+  "posAktif": "1",
+  "posSmbh": "6",
+  "posMeninggal": "0",
+  "posTot": "7"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c35bb"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Babakan Sari",
+  "kodeBPS": "3273150004",
+  "kontakDipantau": "13",
+  "kontakDisc": "93",
+  "kontakTot": "106",
+  "suspekDipantau": "2",
+  "suspekDisc": "115",
+  "suspekTot": "117",
+  "posAktif": "10",
+  "posSmbh": "25",
+  "posMeninggal": "0",
+  "posTot": "35"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c35bc"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Babakan Surabaya",
+  "kodeBPS": "3273150005",
+  "kontakDipantau": "11",
+  "kontakDisc": "77",
+  "kontakTot": "88",
+  "suspekDipantau": "2",
+  "suspekDisc": "79",
+  "suspekTot": "81",
+  "posAktif": "0",
+  "posSmbh": "6",
+  "posMeninggal": "0",
+  "posTot": "6"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c35bd"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Cicaheum",
+  "kodeBPS": "3273150006",
+  "kontakDipantau": "2",
+  "kontakDisc": "23",
+  "kontakTot": "25",
+  "suspekDipantau": "2",
+  "suspekDisc": "38",
+  "suspekTot": "40",
+  "posAktif": "0",
+  "posSmbh": "6",
+  "posMeninggal": "1",
+  "posTot": "7"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c35be"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Kebon Kangkung",
+  "kodeBPS": "3273150001",
+  "kontakDipantau": "0",
+  "kontakDisc": "21",
+  "kontakTot": "21",
+  "suspekDipantau": "1",
+  "suspekDisc": "39",
+  "suspekTot": "40",
+  "posAktif": "0",
+  "posSmbh": "7",
+  "posMeninggal": "1",
+  "posTot": "8"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c35bf"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Kebonjayanti",
+  "kodeBPS": "3273150003",
+  "kontakDipantau": "0",
+  "kontakDisc": "14",
+  "kontakTot": "14",
+  "suspekDipantau": "0",
+  "suspekDisc": "37",
+  "suspekTot": "37",
+  "posAktif": "0",
+  "posSmbh": "3",
+  "posMeninggal": "0",
+  "posTot": "3"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c35c0"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Sukapura",
+  "kodeBPS": "3273150002",
+  "kontakDipantau": "0",
+  "kontakDisc": "59",
+  "kontakTot": "59",
+  "suspekDipantau": "3",
+  "suspekDisc": "93",
+  "suspekTot": "96",
+  "posAktif": "0",
+  "posSmbh": "7",
+  "posMeninggal": "0",
+  "posTot": "7"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c35c1"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Burangrang",
+  "kodeBPS": "3273070005",
+  "kontakDipantau": "1",
+  "kontakDisc": "14",
+  "kontakTot": "15",
+  "suspekDipantau": "0",
+  "suspekDisc": "19",
+  "suspekTot": "19",
+  "posAktif": "1",
+  "posSmbh": "2",
+  "posMeninggal": "0",
+  "posTot": "3"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c35c2"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Cijagra",
+  "kodeBPS": "3273070001",
+  "kontakDipantau": "0",
+  "kontakDisc": "105",
+  "kontakTot": "105",
+  "suspekDipantau": "0",
+  "suspekDisc": "67",
+  "suspekTot": "67",
+  "posAktif": "0",
+  "posSmbh": "32",
+  "posMeninggal": "1",
+  "posTot": "33"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c35c3"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Cikawao",
+  "kodeBPS": "3273070006",
+  "kontakDipantau": "0",
+  "kontakDisc": "12",
+  "kontakTot": "12",
+  "suspekDipantau": "0",
+  "suspekDisc": "8",
+  "suspekTot": "8",
+  "posAktif": "0",
+  "posSmbh": "0",
+  "posMeninggal": "0",
+  "posTot": "0"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c35c4"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Lingkar Selatan",
+  "kodeBPS": "3273070003",
+  "kontakDipantau": "1",
+  "kontakDisc": "44",
+  "kontakTot": "45",
+  "suspekDipantau": "2",
+  "suspekDisc": "24",
+  "suspekTot": "26",
+  "posAktif": "1",
+  "posSmbh": "25",
+  "posMeninggal": "2",
+  "posTot": "28"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c35c5"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Malabar",
+  "kodeBPS": "3273070004",
+  "kontakDipantau": "1",
+  "kontakDisc": "17",
+  "kontakTot": "18",
+  "suspekDipantau": "0",
+  "suspekDisc": "30",
+  "suspekTot": "30",
+  "posAktif": "1",
+  "posSmbh": "3",
+  "posMeninggal": "0",
+  "posTot": "4"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c35c6"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Paledang",
+  "kodeBPS": "3273070007",
+  "kontakDipantau": "0",
+  "kontakDisc": "7",
+  "kontakTot": "7",
+  "suspekDipantau": "0",
+  "suspekDisc": "16",
+  "suspekTot": "16",
+  "posAktif": "1",
+  "posSmbh": "1",
+  "posMeninggal": "0",
+  "posTot": "2"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c35c7"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Turangga",
+  "kodeBPS": "3273070002",
+  "kontakDipantau": "0",
+  "kontakDisc": "66",
+  "kontakTot": "66",
+  "suspekDipantau": "1",
+  "suspekDisc": "121",
+  "suspekTot": "122",
+  "posAktif": "6",
+  "posSmbh": "12",
+  "posMeninggal": "1",
+  "posTot": "19"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c35c8"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Jatihandap",
+  "kodeBPS": "3273142001",
+  "kontakDipantau": "1",
+  "kontakDisc": "16",
+  "kontakTot": "17",
+  "suspekDipantau": "4",
+  "suspekDisc": "58",
+  "suspekTot": "62",
+  "posAktif": "2",
+  "posSmbh": "9",
+  "posMeninggal": "0",
+  "posTot": "11"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c35c9"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Karang Pamulang",
+  "kodeBPS": "3273142002",
+  "kontakDipantau": "0",
+  "kontakDisc": "31",
+  "kontakTot": "31",
+  "suspekDipantau": "1",
+  "suspekDisc": "30",
+  "suspekTot": "31",
+  "posAktif": "0",
+  "posSmbh": "11",
+  "posMeninggal": "0",
+  "posTot": "11"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c35ca"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Pasir Impun",
+  "kodeBPS": "3273142004",
+  "kontakDipantau": "10",
+  "kontakDisc": "48",
+  "kontakTot": "58",
+  "suspekDipantau": "1",
+  "suspekDisc": "23",
+  "suspekTot": "24",
+  "posAktif": "0",
+  "posSmbh": "6",
+  "posMeninggal": "0",
+  "posTot": "6"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c35cb"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Sindangjaya",
+  "kodeBPS": "3273142003",
+  "kontakDipantau": "0",
+  "kontakDisc": "60",
+  "kontakTot": "60",
+  "suspekDipantau": "0",
+  "suspekDisc": "58",
+  "suspekTot": "58",
+  "posAktif": "0",
+  "posSmbh": "7",
+  "posMeninggal": "0",
+  "posTot": "7"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c35cc"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Cipadung Kidul",
+  "kodeBPS": "3273111002",
+  "kontakDipantau": "1",
+  "kontakDisc": "26",
+  "kontakTot": "27",
+  "suspekDipantau": "3",
+  "suspekDisc": "63",
+  "suspekTot": "66",
+  "posAktif": "1",
+  "posSmbh": "7",
+  "posMeninggal": "0",
+  "posTot": "8"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c35cd"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Cipadung Kulon",
+  "kodeBPS": "3273111004",
+  "kontakDipantau": "0",
+  "kontakDisc": "129",
+  "kontakTot": "129",
+  "suspekDipantau": "3",
+  "suspekDisc": "73",
+  "suspekTot": "76",
+  "posAktif": "0",
+  "posSmbh": "23",
+  "posMeninggal": "2",
+  "posTot": "25"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c35ce"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Cipadung Wetan",
+  "kodeBPS": "3273111003",
+  "kontakDipantau": "0",
+  "kontakDisc": "8",
+  "kontakTot": "8",
+  "suspekDipantau": "0",
+  "suspekDisc": "15",
+  "suspekTot": "15",
+  "posAktif": "0",
+  "posSmbh": "1",
+  "posMeninggal": "0",
+  "posTot": "1"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c35cf"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Mekar Mulya",
+  "kodeBPS": "3273111001",
+  "kontakDipantau": "10",
+  "kontakDisc": "49",
+  "kontakTot": "59",
+  "suspekDipantau": "1",
+  "suspekDisc": "30",
+  "suspekTot": "31",
+  "posAktif": "0",
+  "posSmbh": "7",
+  "posMeninggal": "0",
+  "posTot": "7"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c35d0"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Cipamokolan",
+  "kodeBPS": "3273100002",
+  "kontakDipantau": "0",
+  "kontakDisc": "55",
+  "kontakTot": "55",
+  "suspekDipantau": "8",
+  "suspekDisc": "90",
+  "suspekTot": "98",
+  "posAktif": "2",
+  "posSmbh": "16",
+  "posMeninggal": "0",
+  "posTot": "18"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c35d1"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Derwati",
+  "kodeBPS": "3273100001",
+  "kontakDipantau": "0",
+  "kontakDisc": "44",
+  "kontakTot": "44",
+  "suspekDipantau": "3",
+  "suspekDisc": "71",
+  "suspekTot": "74",
+  "posAktif": "1",
+  "posSmbh": "10",
+  "posMeninggal": "1",
+  "posTot": "12"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c35d2"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Manjahlega",
+  "kodeBPS": "3273100005",
+  "kontakDipantau": "11",
+  "kontakDisc": "42",
+  "kontakTot": "53",
+  "suspekDipantau": "8",
+  "suspekDisc": "112",
+  "suspekTot": "120",
+  "posAktif": "0",
+  "posSmbh": "19",
+  "posMeninggal": "0",
+  "posTot": "19"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c35d3"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Mekarjaya",
+  "kodeBPS": "3273100006",
+  "kontakDipantau": "1",
+  "kontakDisc": "25",
+  "kontakTot": "26",
+  "suspekDipantau": "4",
+  "suspekDisc": "84",
+  "suspekTot": "88",
+  "posAktif": "3",
+  "posSmbh": "18",
+  "posMeninggal": "0",
+  "posTot": "21"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c35d4"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Ancol",
+  "kodeBPS": "3273060003",
+  "kontakDipantau": "0",
+  "kontakDisc": "15",
+  "kontakTot": "15",
+  "suspekDipantau": "3",
+  "suspekDisc": "31",
+  "suspekTot": "34",
+  "posAktif": "0",
+  "posSmbh": "7",
+  "posMeninggal": "1",
+  "posTot": "8"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c35d5"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Balonggede",
+  "kodeBPS": "3273060007",
+  "kontakDipantau": "0",
+  "kontakDisc": "8",
+  "kontakTot": "8",
+  "suspekDipantau": "0",
+  "suspekDisc": "26",
+  "suspekTot": "26",
+  "posAktif": "0",
+  "posSmbh": "2",
+  "posMeninggal": "0",
+  "posTot": "2"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c35d6"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Ciateul",
+  "kodeBPS": "3273060005",
+  "kontakDipantau": "0",
+  "kontakDisc": "16",
+  "kontakTot": "16",
+  "suspekDipantau": "2",
+  "suspekDisc": "20",
+  "suspekTot": "22",
+  "posAktif": "0",
+  "posSmbh": "5",
+  "posMeninggal": "1",
+  "posTot": "6"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c35d7"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Cigereleng",
+  "kodeBPS": "3273060004",
+  "kontakDipantau": "0",
+  "kontakDisc": "15",
+  "kontakTot": "15",
+  "suspekDipantau": "1",
+  "suspekDisc": "39",
+  "suspekTot": "40",
+  "posAktif": "0",
+  "posSmbh": "6",
+  "posMeninggal": "1",
+  "posTot": "7"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c35d8"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Ciseureuh",
+  "kodeBPS": "3273060001",
+  "kontakDipantau": "0",
+  "kontakDisc": "11",
+  "kontakTot": "11",
+  "suspekDipantau": "1",
+  "suspekDisc": "12",
+  "suspekTot": "13",
+  "posAktif": "0",
+  "posSmbh": "13",
+  "posMeninggal": "0",
+  "posTot": "13"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c35d9"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Pasirluyu",
+  "kodeBPS": "3273060002",
+  "kontakDipantau": "0",
+  "kontakDisc": "22",
+  "kontakTot": "22",
+  "suspekDipantau": "1",
+  "suspekDisc": "32",
+  "suspekTot": "33",
+  "posAktif": "0",
+  "posSmbh": "2",
+  "posMeninggal": "0",
+  "posTot": "2"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c35da"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Pungkur",
+  "kodeBPS": "3273060006",
+  "kontakDipantau": "0",
+  "kontakDisc": "15",
+  "kontakTot": "15",
+  "suspekDipantau": "1",
+  "suspekDisc": "15",
+  "suspekTot": "16",
+  "posAktif": "0",
+  "posSmbh": "3",
+  "posMeninggal": "1",
+  "posTot": "4"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c35db"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Cipedes",
+  "kodeBPS": "3273240004",
+  "kontakDipantau": "0",
+  "kontakDisc": "29",
+  "kontakTot": "29",
+  "suspekDipantau": "3",
+  "suspekDisc": "45",
+  "suspekTot": "48",
+  "posAktif": "1",
+  "posSmbh": "22",
+  "posMeninggal": "1",
+  "posTot": "24"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c35dc"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Pasteur",
+  "kodeBPS": "3273240005",
+  "kontakDipantau": "0",
+  "kontakDisc": "49",
+  "kontakTot": "49",
+  "suspekDipantau": "3",
+  "suspekDisc": "19",
+  "suspekTot": "22",
+  "posAktif": "1",
+  "posSmbh": "19",
+  "posMeninggal": "1",
+  "posTot": "21"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c35dd"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Sukabungah",
+  "kodeBPS": "3273240003",
+  "kontakDipantau": "0",
+  "kontakDisc": "45",
+  "kontakTot": "45",
+  "suspekDipantau": "4",
+  "suspekDisc": "31",
+  "suspekTot": "35",
+  "posAktif": "0",
+  "posSmbh": "15",
+  "posMeninggal": "0",
+  "posTot": "15"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c35de"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Sukagalih",
+  "kodeBPS": "3273240002",
+  "kontakDipantau": "9",
+  "kontakDisc": "46",
+  "kontakTot": "55",
+  "suspekDipantau": "4",
+  "suspekDisc": "50",
+  "suspekTot": "54",
+  "posAktif": "0",
+  "posSmbh": "13",
+  "posMeninggal": "0",
+  "posTot": "13"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c35df"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Sukawarna",
+  "kodeBPS": "3273240001",
+  "kontakDipantau": "1",
+  "kontakDisc": "34",
+  "kontakTot": "35",
+  "suspekDipantau": "4",
+  "suspekDisc": "41",
+  "suspekTot": "45",
+  "posAktif": "0",
+  "posSmbh": "5",
+  "posMeninggal": "0",
+  "posTot": "5"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c35e0"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Gegerkalong",
+  "kodeBPS": "3273250003",
+  "kontakDipantau": "0",
+  "kontakDisc": "45",
+  "kontakTot": "45",
+  "suspekDipantau": "2",
+  "suspekDisc": "95",
+  "suspekTot": "97",
+  "posAktif": "0",
+  "posSmbh": "6",
+  "posMeninggal": "1",
+  "posTot": "7"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c35e1"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Isola",
+  "kodeBPS": "3273250004",
+  "kontakDipantau": "3",
+  "kontakDisc": "20",
+  "kontakTot": "23",
+  "suspekDipantau": "0",
+  "suspekDisc": "17",
+  "suspekTot": "17",
+  "posAktif": "1",
+  "posSmbh": "1",
+  "posMeninggal": "0",
+  "posTot": "2"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c35e2"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Sarijadi",
+  "kodeBPS": "3273250001",
+  "kontakDipantau": "7",
+  "kontakDisc": "26",
+  "kontakTot": "33",
+  "suspekDipantau": "2",
+  "suspekDisc": "63",
+  "suspekTot": "65",
+  "posAktif": "3",
+  "posSmbh": "14",
+  "posMeninggal": "0",
+  "posTot": "17"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c35e3"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Sukarasa",
+  "kodeBPS": "3273250002",
+  "kontakDipantau": "1",
+  "kontakDisc": "71",
+  "kontakTot": "72",
+  "suspekDipantau": "3",
+  "suspekDisc": "38",
+  "suspekTot": "41",
+  "posAktif": "0",
+  "posSmbh": "12",
+  "posMeninggal": "1",
+  "posTot": "13"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c35e4"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Babakan Ciamis",
+  "kodeBPS": "3273170004",
+  "kontakDipantau": "4",
+  "kontakDisc": "18",
+  "kontakTot": "22",
+  "suspekDipantau": "5",
+  "suspekDisc": "36",
+  "suspekTot": "41",
+  "posAktif": "3",
+  "posSmbh": "9",
+  "posMeninggal": "0",
+  "posTot": "12"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c35e5"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Braga",
+  "kodeBPS": "3273170001",
+  "kontakDipantau": "0",
+  "kontakDisc": "3",
+  "kontakTot": "3",
+  "suspekDipantau": "5",
+  "suspekDisc": "27",
+  "suspekTot": "32",
+  "posAktif": "0",
+  "posSmbh": "1",
+  "posMeninggal": "0",
+  "posTot": "1"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c35e6"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Kebon Pisang",
+  "kodeBPS": "3273170002",
+  "kontakDipantau": "3",
+  "kontakDisc": "16",
+  "kontakTot": "19",
+  "suspekDipantau": "2",
+  "suspekDisc": "69",
+  "suspekTot": "71",
+  "posAktif": "4",
+  "posSmbh": "9",
+  "posMeninggal": "2",
+  "posTot": "15"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c35e7"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Merdeka",
+  "kodeBPS": "3273170003",
+  "kontakDipantau": "3",
+  "kontakDisc": "40",
+  "kontakTot": "43",
+  "suspekDipantau": "3",
+  "suspekDisc": "60",
+  "suspekTot": "63",
+  "posAktif": "0",
+  "posSmbh": "18",
+  "posMeninggal": "0",
+  "posTot": "18"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c35e8"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Cigending",
+  "kodeBPS": "3273120006",
+  "kontakDipantau": "0",
+  "kontakDisc": "6",
+  "kontakTot": "6",
+  "suspekDipantau": "3",
+  "suspekDisc": "42",
+  "suspekTot": "45",
+  "posAktif": "0",
+  "posSmbh": "4",
+  "posMeninggal": "0",
+  "posTot": "4"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c35e9"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Pasanggrahan",
+  "kodeBPS": "3273120003",
+  "kontakDipantau": "0",
+  "kontakDisc": "33",
+  "kontakTot": "33",
+  "suspekDipantau": "0",
+  "suspekDisc": "55",
+  "suspekTot": "55",
+  "posAktif": "1",
+  "posSmbh": "6",
+  "posMeninggal": "0",
+  "posTot": "7"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c35ea"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Pasir Endah",
+  "kodeBPS": "3273120007",
+  "kontakDipantau": "0",
+  "kontakDisc": "9",
+  "kontakTot": "9",
+  "suspekDipantau": "3",
+  "suspekDisc": "51",
+  "suspekTot": "54",
+  "posAktif": "1",
+  "posSmbh": "5",
+  "posMeninggal": "0",
+  "posTot": "6"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c35eb"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Pasir Jati",
+  "kodeBPS": "3273120005",
+  "kontakDipantau": "0",
+  "kontakDisc": "26",
+  "kontakTot": "26",
+  "suspekDipantau": "8",
+  "suspekDisc": "69",
+  "suspekTot": "77",
+  "posAktif": "3",
+  "posSmbh": "4",
+  "posMeninggal": "0",
+  "posTot": "7"
+},{
+  "_id": {
+    "$oid": "5fa62669dbb5f9199c9c35ec"
+  },
+  "dateReported": {
+    "$date": "2020-10-15T17:00:00Z"
+  },
+  "namaKel": "Pasirwangi",
+  "kodeBPS": "3273120004",
+  "kontakDipantau": "0",
+  "kontakDisc": "21",
+  "kontakTot": "21",
+  "suspekDipantau": "0",
+  "suspekDisc": "34",
+  "suspekTot": "34",
+  "posAktif": "4",
+  "posSmbh": "12",
+  "posMeninggal": "0",
+  "posTot": "16"
+}]

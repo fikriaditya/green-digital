@@ -1,0 +1,17 @@
+[{
+  "_id": {
+    "$oid": "5fbd8f81ddd1894666424c08"
+  },
+  "publishDate": {
+    "$date": "2020-10-14T17:00:00Z"
+  },
+  "labelName": "151020"
+},{
+  "_id": {
+    "$oid": "5fbd8f81ddd1894666424c09"
+  },
+  "publishDate": {
+    "$date": "2020-10-28T17:00:00Z"
+  },
+  "labelName": "291020"
+}]

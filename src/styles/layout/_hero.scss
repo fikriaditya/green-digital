@@ -1,0 +1,18 @@
+.hero.is-success {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ), url('https://unsplash.com/photos/MMJx78V7xS8/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8M3x8Zm9yZXN0fGVufDB8fHx8MTY1Mzg3MTg0MQ&force=true&w=2400') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .hero .nav, .hero.is-success .nav {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+  .hero .subtitle {
+    padding: 3rem 0;
+    line-height: 1.5;
+  }

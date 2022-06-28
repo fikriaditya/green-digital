@@ -1,0 +1,45 @@
+#layerModal.modal
+	.modal-background
+	.modal-card
+		header.modal-card-head
+			.modal-card-title
+				span.modal-title-icon.icon.is-medium
+					span.fas.fa-layer-group.fa-lg
+				span.modal-title-text
+					| Fasilitas Kesehatan
+			button.delete.close-modal(aria-label='close')
+		section.modal-card-body
+			table.table.is-hoverable.is-striped.is-bordered.is-fullwidth
+				tbody
+					tr
+						th RESOLUSI / SKALA
+						td.lyrScale Skala Kota
+					tr
+						th Cakupan Data
+						td.lyrScope Wilayah Kota Bandung
+					tr
+						th Sumber
+						td.lyrSource Dinas Penataan Ruang Kota bandung
+					tr
+						th Tanggal Publikasi
+						td.lyrPublish 15/01/2020
+					tr
+						th Deskripsi
+						td.lyrDesc
+							| Layer ini berisi data fasilitas kesehatan di wilayah kota bandung dalam bentuk titik
+					tr
+						th LISENSI
+						td.lyrLicense CC BY 4.0
+					tfoot
+					tr
+						td.lyrSummary(colspan='2')
+							| Ringkasan: 
+							br
+							|                 -
+					tr
+						td.lyrCite(colspan='2')
+							| Sitasi: 
+							br
+							|                 -
+		footer.modal-card-foot
+			button.button.close-modal Tutup info layer

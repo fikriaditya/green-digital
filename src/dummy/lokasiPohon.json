@@ -1,0 +1,385 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "id_pohon": "GD_101",
+                "site": "Taman Kareumbi",
+                "type": "Pinus Eucalyptus",
+                "plant_date": "22/04/2022",
+                "h_0622": 112,
+                "h_0722": 89,
+                "h_0822": 78
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    107.94118881225586,
+                    -6.975672344357584
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id_pohon": "GD_102",
+                "site": "Taman Kareumbi",
+                "type": "Pinus Eucalyptus",
+                "plant_date": "22/04/2022",
+                "h_0622": 113,
+                "h_0722": 76,
+                "h_0822": 98
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    107.9523468017578,
+                    -6.975672344357584
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id_pohon": "GD_103",
+                "site": "Taman Kareumbi",
+                "type": "Pinus Eucalyptus",
+                "plant_date": "22/04/2022",
+                "h_0622": 118,
+                "h_0722": 49,
+                "h_0822": 54
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    107.9629898071289,
+                    -6.9749907810359355
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id_pohon": "GD_104",
+                "site": "Taman Kareumbi",
+                "type": "Pinus Eucalyptus",
+                "plant_date": "22/04/2022",
+                "h_0622": 119,
+                "h_0722": 78,
+                "h_0822": 56
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    107.94084548950195,
+                    -6.98231753474274
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id_pohon": "GD_105",
+                "site": "Taman Kareumbi",
+                "type": "Pinus Eucalyptus",
+                "plant_date": "22/04/2022",
+                "h_0622": 86,
+                "h_0722": 94,
+                "h_0822": 67
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    107.95183181762695,
+                    -6.9816359810970265
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id_pohon": "GD_106",
+                "site": "Taman Kareumbi",
+                "type": "Pinus Eucalyptus",
+                "plant_date": "22/04/2022",
+                "h_0622": 76,
+                "h_0722": 95,
+                "h_0822": 87
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    107.96281814575194,
+                    -6.980954426458483
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id_pohon": "GD_107",
+                "site": "Taman Kareumbi",
+                "type": "Pinus Eucalyptus",
+                "plant_date": "22/04/2022",
+                "h_0622": 79,
+                "h_0722": 89,
+                "h_0822": 92
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    107.97225952148438,
+                    -6.980613648766941
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id_pohon": "GD_108",
+                "site": "Taman Kareumbi",
+                "type": "Pinus Eucalyptus",
+                "plant_date": "22/04/2022",
+                "h_0622": 80,
+                "h_0722": 70,
+                "h_0822": 45
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    107.97277450561523,
+                    -6.972775693390861
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id_pohon": "GD_109",
+                "site": "Taman Kareumbi",
+                "type": "Pinus Eucalyptus",
+                "plant_date": "22/04/2022",
+                "h_0622": 65,
+                "h_0722": 62,
+                "h_0822": 67
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    107.94118881225586,
+                    -6.990666486292763
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id_pohon": "GD_110",
+                "site": "Taman Kareumbi",
+                "type": "Pinus Eucalyptus",
+                "plant_date": "22/04/2022",
+                "h_0622": 43,
+                "h_0722": 78,
+                "h_0822": 87
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    107.95286178588867,
+                    -6.989644173706021
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id_pohon": "GD_111",
+                "site": "Taman Kareumbi",
+                "type": "Pinus Eucalyptus",
+                "plant_date": "22/04/2022",
+                "h_0622": 54,
+                "h_0722": 64,
+                "h_0822": 75
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    107.9629898071289,
+                    -6.988792244842081
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id_pohon": "GD_112",
+                "site": "Taman Kareumbi",
+                "type": "Pinus Eucalyptus",
+                "plant_date": "22/04/2022",
+                "h_0622": 65,
+                "h_0722": 36,
+                "h_0822": 68
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    107.97225952148438,
+                    -6.987599541823833
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id_pohon": "GD_113",
+                "site": "Taman Kareumbi",
+                "type": "Pinus Eucalyptus",
+                "plant_date": "22/04/2022",
+                "h_0622": 78,
+                "h_0722": 78,
+                "h_0822": 95
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    107.97277450561523,
+                    -6.995096481651823
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id_pohon": "GD_114",
+                "site": "Taman Kareumbi",
+                "type": "Pinus Eucalyptus",
+                "plant_date": "22/04/2022",
+                "h_0622": 89,
+                "h_0722": 87,
+                "h_0822": 89
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    107.96401977539062,
+                    -6.996459548693228
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id_pohon": "GD_115",
+                "site": "Taman Kareumbi",
+                "type": "Pinus Eucalyptus",
+                "plant_date": "22/04/2022",
+                "h_0622": 23,
+                "h_0722": 89,
+                "h_0822": 76
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    107.95406341552734,
+                    -6.996800314831801
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id_pohon": "GD_116",
+                "site": "Taman Kareumbi",
+                "type": "Pinus Eucalyptus",
+                "plant_date": "22/04/2022",
+                "h_0622": 45,
+                "h_0722": 54,
+                "h_0822": 90
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    107.94239044189453,
+                    -6.996800314831801
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id_pohon": "GD_117",
+                "site": "Taman Kareumbi",
+                "type": "Pinus Eucalyptus",
+                "plant_date": "22/04/2022",
+                "h_0622": 76,
+                "h_0722": 79,
+                "h_0822": 62
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    107.9732894897461,
+                    -7.002593301121834
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id_pohon": "GD_118",
+                "site": "Taman Kareumbi",
+                "type": "Pinus Eucalyptus",
+                "plant_date": "22/04/2022",
+                "h_0622": 87,
+                "h_0722": 80,
+                "h_0822": 56
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    107.96401977539062,
+                    -7.00463786734483
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id_pohon": "GD_119",
+                "site": "Taman Kareumbi",
+                "type": "Pinus Eucalyptus",
+                "plant_date": "22/04/2022",
+                "h_0622": 89,
+                "h_0722": 45,
+                "h_0822": 78
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    107.95475006103516,
+                    -7.004297106930112
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id_pohon": "GD_110",
+                "site": "Taman Kareumbi",
+                "type": "Pinus Eucalyptus",
+                "plant_date": "22/04/2022",
+                "h_0622": 67,
+                "h_0722": 68,
+                "h_0822": 89
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    107.94479370117188,
+                    -7.004808247458809
+                ]
+            }
+        }
+    ]
+}

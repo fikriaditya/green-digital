@@ -1,0 +1,36 @@
+//? set your brand colors
+
+$white: #fff;
+
+$light-grey: #fafafa;
+$subtle-grey: #f1f1f1;
+$subtle-grey-transparent: rgba(241, 241, 241, 0.45);
+$grey: #d7d7d7;
+$grey-background: #eceee8;
+
+$black-soft: #444;
+$black: #09090e;
+
+$blue: #2c638f;
+$pink: #fff0f5;
+$yellow: #fffacd;
+
+// emergency theme
+$emergency: #ff6d6d;
+$dead: #bd7171;
+$recovered: #88d64d;
+$completed: #4ad2f1;
+$watched: #ffab42;
+$monitored: #ffd744;
+//? override for project clarity
+
+$color-primary: $blue;
+$color-secondary: $pink;
+$color-tertiary: $yellow;
+$green-forest: #97BE43;
+
+// Dark color theme
+$dark-subtle-grey: #464646;
+$dark-subtle-grey-transparent: rgba(70, 70, 70, 0.45);
+$dark-black: #212121;
+$dark-black-transparent: rgba(33, 33, 33, 0.8); 

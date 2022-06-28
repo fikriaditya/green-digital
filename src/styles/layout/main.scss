@@ -1,0 +1,123 @@
+main {
+  .main-container {
+	height: 100%;
+	
+	#infobarToggle {
+		display: none;
+		position: absolute;
+		width: 32px;
+		height: 32px;
+		background-color: white;
+		border: 1px solid gainsboro;
+		border-radius: 5px;
+		margin-top: 2rem;
+		right: 3rem;
+		padding: 6px;
+		box-shadow: 0 0.1em 0.2em 0.1em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.02);
+	}
+
+	.infobar-container {
+		// display: none;
+		width: 0px;
+		transition: width 0.3s ease-in;
+
+		&.is-open {
+			// display: block;
+			width: 30rem;
+		}
+	}
+  }
+}
+
+@include respond-to ('tablet') {
+  main {
+		padding: 0px;
+		height: calc(100% - 70px);
+		margin-top: 7px;
+		
+		.main-container {
+      		flex-direction: column;
+			display: flex;
+
+			#infobarToggle {
+				position: fixed;
+				text-align: center;
+				font-size: 18px;
+				// color: #4a4a4a;
+				width: 48px;
+				height: 48px;
+				z-index: 3;
+				border-radius: 50px;
+				top: unset;
+				// bottom: .8rem;
+				margin-top: calc(100vh - 128px);
+				margin-top: calc((var(--vh, 1vh) * 100) - 125px);
+				right: calc(50% - 24px);
+				padding: 8px;
+
+				span {
+					height: 100%;
+					width: 100%;
+					transform: rotate(90deg);
+				}
+			}
+
+			.infobar-container {
+				display: none;
+				width: 0px;
+				height: 0px;
+				transition: width 0.3s ease-in;
+		
+				&.is-open {
+					display: block;
+					width: auto;
+					height: auto; 
+				}
+			}
+
+			&.columns {
+				margin-bottom: 0px;
+			}
+			
+			&>.column {
+				&:first-child {
+					order: 3;
+					width: 100%;
+					z-index: 2;
+					padding: 0;
+				}
+	
+				&:nth-child(2) {
+					#map {
+						order: 1;
+						// position: absolute;
+						top: 0px;
+						bottom: 0px;
+						left: 0px;
+						z-index: 0;
+						border-radius: 0;
+					}
+				}
+	
+				&:last-child {
+					order: 2;
+					z-index: 1;
+					padding: 0 !important;
+				}
+			}
+
+			.infobar-container {
+				padding: 0 !important;
+			}
+
+    }
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+	main .main-container {
+		#infobarToggle {
+			background-color: black;
+		}
+	}
+}

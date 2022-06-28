@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Covid19 Risk Map &#128137;</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="Description"
+      content="A simple map viewport for desease spread monitoring"
+    />
+
+    <!-- Open Graph data / Facebook Card data -->
+    <meta property="og:title" content="Covid19 Risk Map" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://github.com/fikriaditya/CovidMapBSM"
+    />
+    <meta property="og:image" content="https://i.imgur.com/lxRBpeb.jpg" />
+    <meta
+      property="og:image:alt"
+      content="A blue package, symbolizing what webpack does."
+    />
+    <meta
+      property="og:description"
+      content="A simple map viewport for desease spread monitoring"
+    />
+
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:creator" content="@triscodes" />
+
+    <!-- Mobile header color for Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#2c638f" />
+    <!-- Mobile header color Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#2c638f" />
+    <!-- Mobile header color for iOS Safari (supports black, black-translucent or default) -->
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+
+    <!-- <script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.4.3/build/ol.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/js/all.min.js"></script>
+    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+  </head>
+
+  <body>
+    <header class="main-header">
+      <div class="wrapper">
+        <div class="nav">
+          <!-- Main container -->
+          <nav class="level">
+            <!-- Left side -->
+            <div class="level-left">
+              <div class="level-item">
+                <a
+                  class="logo-link"
+                  href="#"
+                  aria-label="Covid19 Risk Map Logo"
+                >
+                  <img class="logo-img" src="images/pusicov-logo.svg" alt="website logo" width="40" height="40"  />
+                </a>
+                <h3>
+                  <strong>Covid19</strong> Risk Map
+                </h3>
+                <div class="menu-toggle"><i class="fa fa-bars"></i></div>
+              </div>
+              <!-- <div class="level-item">
+                <div class="field has-addons">
+                  <p class="control">
+                    <input class="input" type="text" placeholder="Find a post">
+                  </p>
+                  <p class="control">
+                    <button class="button">
+                      Search
+                    </button>
+                  </p>
+                </div>
+              </div> -->
+            </div>
+
+            <!-- Right side -->
+            <div class="level-right">
+              <p class="level-item"><strong>All</strong></p>
+              <p class="level-item"><a>Published</a></p>
+              <p class="level-item"><a href="http://bsm.bandung.go.id">BSM</a></p>
+              <p class="level-item"><a href="http://103.108.201.6/">Bandung Geodata</a></p>
+              <p class="level-item"><a class="button is-danger is-medium" href="https://covid19.bandung.go.id/" target="_blank">
+                  <span>PUSICOV</span>
+                  <span class="icon">
+                    <i class="fa fa-external-link-alt"></i>
+                  </span>
+                </a>
+              </p>
+            </div>
+          </nav>
+        </div>
+        <div class="close-button">
+          <i class="fa fa-times"></i>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="main-container columns is-4 is-variable">
+        <div class="column is-narrow is-narrow-mobile">
+            <div id="sidebar" class="box columns is-gapless">
+              <div class="sidebar-content column is-narrow">
+                <div class="map-tools columns is-multiline is-mobile">
+                  <div class="map-tool column is-full-tablet" id="tool-layer">
+                    <span class="icon is-medium">
+                      <span class="fas fa-layer-group fa-lg"></span>
+                    </span>
+                  </div>
+                  <div class="map-tool column is-full-tablet" id="tool-basemap">
+                    <span class="icon is-medium">
+                      <span class="fas fa-map fa-lg"></span>
+                    </span>
+                  </div>
+                  <div class="map-tool column is-full-tablet" id="tool-legend">
+                    <span class="icon is-medium">
+                      <span class="fas fa-th-list fa-lg"></span>
+                    </span>
+                  </div>
+                  <div class="map-tool column is-full-tablet" id="tool-measure">
+                    <span class="icon is-medium">
+                      <span class="fas fa-pencil-ruler fa-lg"></span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="column">
+                <div class="tool-panel-container">
+                  <div class="tool-panel panel-tool-layer">
+                    <div class="panel-header">
+                      <h2>DATA LAYER</h2>
+                    </div>
+                    <div class="panel-body">
+                      <ul id="menu-content" class="menu-content collapse out layer-group-list">
+                        <div id="responsecontainer">
+                        </div>       
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="tool-panel panel-tool-basemap">
+                    <div class="panel-header">
+                      <h2>BASEMAP</h2>
+                    </div>
+                    <div class="panel-body">
+                      <ul class="basemap-list">
+                        <li id="baseMapboxLight" class="basemap-list-item">
+                          <div class="basemap-item-content columns is-gapless is-mobile">
+                            <figure class="basemap-image column is-3">
+                              <img class="basemap-image" src="images/Map/bsmlight-1.png">
+                            </figure>
+                            <div class="basemap-text column">
+                              <strong>Mapbox Light</strong><br>OSM with light single tone
+                            </div>
+                            <div class="basemap-icon column is-1">
+                              <i class="fa fa-info-circle"></i> 
+                            </div>
+                          </div>
+                        </li>
+                        <li id="baseMapboxDark" class="basemap-list-item">
+                          <div class="basemap-item-content columns is-gapless is-mobile">
+                            <figure class="basemap-image column is-3">
+                              <img class="basemap-image" src="images/Map/bsmdark-1.png">
+                            </figure>
+                            <div class="basemap-text column">
+                              <strong>Mapbox Dark</strong><br>OSM with dark single tone
+                            </div>
+                            <div class="basemap-icon column is-1">
+                              <i class="fa fa-info-circle"></i> 
+                            </div>
+                          </div>
+                        </li>
+                        <li id="baseOSM" class="basemap-list-item">
+                          <div class="basemap-item-content columns is-gapless is-mobile">
+                            <figure class="basemap-image column is-3">
+                              <img class="basemap-image" src="images/Map/streetbdg-1.png">
+                            </figure>
+                            <div class="basemap-text column">
+                              <strong>Open Street Map</strong><br>OSM
+                            </div>
+                            <div class="basemap-icon column is-1">
+                              <i class="fa fa-info-circle"></i> 
+                            </div>
+                          </div>
+                        </li>
+                        <li id="baseEsri" class="basemap-list-item">
+                          <div class="basemap-item-content columns is-gapless is-mobile">
+                            <figure class="basemap-image column is-3">
+                              <img class="basemap-image" src="images/Map/streetbdg-1.png">
+                            </figure>
+                            <div class="basemap-text column">
+                              <strong>Esri</strong><br>Sattellite Imagery
+                            </div>
+                            <div class="basemap-icon column is-1">
+                              <i class="fa fa-info-circle"></i> 
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="tool-panel panel-tool-measure">
+                    <div class="panel-header">
+                      <h2>PENGUKURAN</h2>
+                    </div>
+                    <div class="panel-body">
+                      <div class="select">
+                        <select class="select-text"  id="measureType">
+                          <option value="None">Pilih Alat Ukur</option>
+                          <option value="LineString">Length (LineString)</option>
+                          <option value="Polygon">Area (Polygon)</option>
+                          <option value="Circle">Radius (Circle)</option>
+                        </select>
+                      </div>
+                      <div>
+                        <button id="clearMeasureButton" class="button is-medium is-danger is-outlined">
+                          <span>Reset Pengukuran</span>
+                          <span class="icon is-small">
+                            <i class="fas fa-times"></i>
+                          </span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tool-panel panel-tool-legend">
+                    <div class="panel-header">
+                      <h2>LEGENDA</h2>
+                    </div>
+                    <div class="panel-body">
+                      <ul class="legend-list">
+                        <li class="legend-list-item">
+                          <div class="legend-title">
+                            <span class="legend-marker">&#128280</span> Indeks Resiko
+                          </div>
+                          <div class="legend-body">
+                            <!-- <i class="icon-minus-sign"></i> -->
+                            <img class="legend-image" src="http://103.108.201.6/geoserver/geonode/wms?REQUEST=GetLegendGraphic&VERSION=1.0.0&FORMAT=image/png&WIDTH=20&HEIGHT=20&LAYER=geonode:HAZARD&legend_options=countMatched:true;fontAntiAliasing:true;dpi:90;fontsize:10&Transparent=True">
+                          </div> 
+                        </li>
+                        <li class="legend-list-item">
+                          <div class="legend-title">
+                            <span class="legend-marker">&#128280</span> Transportasi Umum
+                          </div>
+                          <div class="legend-body">
+                            <!-- <i class="icon-minus-sign"></i> -->
+                            <img class="legend-image" src="http://103.108.201.6/geoserver/geonode/wms?REQUEST=GetLegendGraphic&VERSION=1.0.0&FORMAT=image/png&WIDTH=20&HEIGHT=20&LAYER=geonode:TRANSPORTASIUMUM&legend_options=countMatched:true;fontAntiAliasing:true;dpi:90;fontsize:10&Transparent=True">
+                          </div> 
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="close-button">
+                    <i class="fa fa-times"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="column map-container">
+            <div id="map" class="box"></div>
+        </div>
+        <div class="column is-narrow is-narrow-mobile">
+            <div id="infobar" class="box">
+              <div class=infobar-content>
+                <div class="info-container info-general">
+                  <div class="info-header">
+                    <h2 class="info-title">
+                      Kota Bandung
+                    </h2>
+                  </div>
+                  <div class="info-body">
+                    <div class="columns is-multiline is-mobile">
+                      <div class="column is-4 is-centered">
+                        <h2 class="info-stat-number is-emergency">
+                          279
+                        </h2>
+                        <h6 class="info-stat-number">
+                          Aktif
+                        </h6>
+                      </div>
+                      <div class="column is-4">
+                        <h2 class="info-stat-number is-dead">
+                          95
+                        </h2>
+                        <h6 class="info-stat-number">
+                          Meninggal
+                        </h6>
+                      </div>
+                      <div class="column is-4">
+                        <h2 class="info-stat-number is-recovered">
+                          1919
+                        </h2>
+                        <h6 class="info-stat-number">
+                          Sembuh
+                        </h6>
+                      </div>
+                      <div class="column is-4">
+                        <h2 class="info-stat-number is-watched">
+                          434
+                        </h2>
+                        <h6 class="info-stat-number">
+                          Suspek
+                        </h6>
+                      </div>
+                      <div class="column is-4">
+                        <h2 class="info-stat-number is-monitored">
+                          646
+                        </h2>
+                        <h6 class="info-stat-number">
+                          Kontak Erat
+                        </h6>
+                      </div>
+                      <div class="column is-4">
+                        <h2 class="info-stat-number is-completed">
+                          15622
+                        </h2>
+                        <h6 class="info-stat-number">
+                          Selesai
+                        </h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="info-container info-detail">
+                  <div class="info-header">
+                    <h2 class="info-title">
+                      Indeks Resiko
+                    </h2>
+                  </div>
+                  <div class="info-body">
+                    <div class="index-list">
+                      <div class="radio-toolbar columns is-mobile is-gapless">
+                        <div class="column is-narrow">
+                          <input type="radio" id="radioHazard" name="indexRadio" value="HAZARD" checked>
+                          <label for="radioHazard">Hazard</label>
+                        </div>
+                        <div class="column is-narrow">
+                          <input type="radio" id="radioCapacity" name="indexRadio" value="CAPACITY">
+                          <label for="radioCapacity">Capacity</label>
+                        </div>
+                        <div class="column is-narrow">
+                          <input type="radio" id="radioVulnerability" name="indexRadio" value="VULNERABILITY">
+                          <label for="radioVulnerability">Vulnerability</label>
+                        </div>
+                        <div class="column is-narrow">
+                          <input type="radio" id="radioRisk" name="indexRadio" value="RISK">
+                          <label for="radioRisk">Risk</label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="index-slider">
+                      <input id="indexTimeseries" type="text" class="js-range-slider" name="my_range" value="" />
+                    </div>
+                    <div class="index-opacity">
+                      <div class="columns is-mobile">
+                        <div class="column">
+                          Indeks Opacity
+                        </div>
+                        <div class="column is-narrow">
+                          <input type="range" min="1" max="100" value="100" class="slider indeksOpacity layeropacity" id="indeksOpacity" name="indeksOpacity">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="index-analyzer">
+                      <div class="columns is-mobile">
+                        <div class="column">
+                          Analisis Lokasi
+                        </div>
+                        <div class="column is-narrow">
+                          <div class="onoffswitch">
+                            <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" tabindex="0" checked>
+                            <label class="onoffswitch-label" for="myonoffswitch"></label>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="info-container info-detail">
+                  <div class="info-header">
+                    <h2 class="info-title">
+                      Data Kasus
+                    </h2>
+                  </div>
+                  <div class="info-body">
+                    <div class="case-weighting">
+                        <div>
+                          <p>
+                            Kasus Berdasarkan
+                          </p>
+                        </div>
+                        <div>
+                          <div class="select">
+                            <select class="select-text"  id="caseType">
+                              <option value="posAktif">Kasus Positif Aktif</option>
+                              <option value="posMeninggal">Kasus Positif Meninggal</option>
+                              <option value="posSmbh">Kasus Positif Sembuh</option>
+                              <option value="suspekDipantau">Suspek Dipantau</option>
+                              <option value="kontakDipantau">Kontak Erat Dipantau</option>
+                              <option value="caseIndex">Pembobotan Nilai</option>
+                            </select>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="case-slider">
+                      <input id="caseTimeseries" type="text" class="js-range-slider" name="my_range2" value="" />
+                    </div>
+                    <div class="case-opacity">
+                      <div class="columns is-mobile">
+                        <div class="column">
+                          Data Kasus Opacity
+                        </div>
+                        <div class="column is-narrow">
+                          <input type="range" min="1" max="100" value="100" class="slider indeksOpacity layeropacity" id="indeksOpacity" name="indeksOpacity">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </main>
+    <footer class="main-footer">
+      <div id="status-bar">
+        <div class="container is-fluid">
+          <div class="columns">
+            <div class="column is-3">
+              <div>
+                <span>
+                  <img class="bdg-icon" src="images/bdg.svg" alt="Logo Pemkot Bandung" style=" height: 2rem; display: inline;
+                  vertical-align: middle;">
+                </span>
+                <span>PEMKOT BANDUNG</span>
+              </div>
+            </div>
+            <div id="status-text" class="column is-9">
+              <div id="scale" class="stat-text">Skala = 1 : 136K</div>
+              <div id="position-text" class="stat-text">
+                  <i class="im im-location" style="font-size:10px">&nbsp; </i> Long/Lat:
+                  <span id= "longlatText"></span>
+                <!-- <div id="location" class="stat-text">
+                  <div class="custom-mouse-position">&nbsp;</div>
+                </div> -->
+              </div>
+              <!-- <div id="stat-basemap" class="stat-text">
+                <i class="im im-map-o" style="font-size:10px">&nbsp; </i> Basemap: <label id="lblbasemap">Peta Garis</label>
+              </div>
+              <div id="stat-basemap" class="stat-text">
+                <i class="im im-layer" style="font-size:10px">&nbsp; </i> Layer Aktif: <label id="lbllayer">1</label>
+              </div> -->
+            </div> 
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <div id="layerModal" class="modal">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+      <header class="modal-card-head">
+        <div class="modal-card-title">
+          <span class="modal-title-icon icon is-medium">
+            <span class="fas fa-layer-group fa-lg"></span>
+          </span>
+          <span class="modal-title-text">
+            Fasilitas Kesehatan
+          </span>
+        </div>
+        <button class="delete close-modal" aria-label="close"></button>
+      </header>
+      <section class="modal-card-body">
+        <table class="table is-hoverable is-striped is-bordered is-fullwidth">
+          <tbody>
+            <tr>
+              <th>RESOLUSI / SKALA</th>
+              <td>Skala Kota</td>
+            </tr>
+            <tr>
+              <th>Cakupan Data</th>
+              <td>Wilayah Kota Bandung</td>
+            </tr>
+            <tr>
+              <th>Sumber</th>
+              <td>Dinas Penataan Ruang Kota bandung</td>
+            </tr>
+            <tr>
+              <th>Tanggal Publikasi</th>
+              <td>15/01/2020</td>
+            </tr>
+            <tr>
+              <th>Deskripsi</th>
+              <td>Layer ini berisi data fasilitas kesehatan di wilayah kota bandung dalam bentuk titik</td>
+            </tr>
+            <tr>
+              <th>LISENSI</th>
+              <td>CC BY 4.0</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td colspan="2">Ringkasan: <br>
+                -
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2">Sitasi: <br>
+                -
+              </td>
+            </tr>
+          </tfoot>
+        </table>
+      </section>
+      <footer class="modal-card-foot">
+        <button class="button close-modal">Tutup info layer</button>
+      </footer>
+    </div>
+  </div>
+  <div id="basemapModal" class="modal">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+      <header class="modal-card-head">
+        <div class="modal-card-title">
+          <span class="modal-title-icon icon is-medium">
+            <span class="fas fa-map fa-lg"></span>
+          </span>
+          <span class="modal-title-text">
+            Citra Satelit ESRI
+          </span>
+        </div>
+        <button class="delete close-modal" aria-label="close"></button>
+      </header>
+      <section class="modal-card-body">
+        <div class="content">
+          <h1>Hello World</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla accumsan, metus ultrices eleifend gravida, nulla nunc varius lectus, nec rutrum justo nibh eu lectus. Ut vulputate semper dui. Fusce erat odio, sollicitudin vel erat vel, interdum mattis neque.</p>
+          <h2>Second level</h2>
+          <p>Curabitur accumsan turpis pharetra <strong>augue tincidunt</strong> blandit. Quisque condimentum maximus mi, sit amet commodo arcu rutrum id. Proin pretium urna vel cursus venenatis. Suspendisse potenti. Etiam mattis sem rhoncus lacus dapibus facilisis. Donec at dignissim dui. Ut et neque nisl.</p>
+          <ul>
+            <li>In fermentum leo eu lectus mollis, quis dictum mi aliquet.</li>
+            <li>Morbi eu nulla lobortis, lobortis est in, fringilla felis.</li>
+            <li>Aliquam nec felis in sapien venenatis viverra fermentum nec lectus.</li>
+            <li>Ut non enim metus.</li>
+          </ul>
+          <p>Cras in nibh lacinia, venenatis nisi et, auctor urna. Donec pulvinar lacus sed diam dignissim, ut eleifend eros accumsan. Phasellus non tortor eros. Ut sed rutrum lacus. Etiam purus nunc, scelerisque quis enim vitae, malesuada ultrices turpis. Nunc vitae maximus purus, nec consectetur dui. Suspendisse euismod, elit vel rutrum commodo, ipsum tortor maximus dui, sed varius sapien odio vitae est. Etiam at cursus metus.</p>
+        </div>
+      </section>
+      <footer class="modal-card-foot">
+        <button class="button close-modal">Tutup info basemap</button>
+      </footer>
+    </div>
+  </div>
+  <div id="analyzeModal" class="modal">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+      <header class="modal-card-head">
+        <p class="modal-card-title">ANALISIS LOKASI</p>
+        <button class="delete close-modal" aria-label="close"></button>
+      </header>
+      <section class="modal-card-body">
+        <div class="content">
+          <h1>Hello World</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla accumsan, metus ultrices eleifend gravida, nulla nunc varius lectus, nec rutrum justo nibh eu lectus. Ut vulputate semper dui. Fusce erat odio, sollicitudin vel erat vel, interdum mattis neque.</p>
+          <h2>Second level</h2>
+          <p>Curabitur accumsan turpis pharetra <strong>augue tincidunt</strong> blandit. Quisque condimentum maximus mi, sit amet commodo arcu rutrum id. Proin pretium urna vel cursus venenatis. Suspendisse potenti. Etiam mattis sem rhoncus lacus dapibus facilisis. Donec at dignissim dui. Ut et neque nisl.</p>
+          <ul>
+            <li>In fermentum leo eu lectus mollis, quis dictum mi aliquet.</li>
+            <li>Morbi eu nulla lobortis, lobortis est in, fringilla felis.</li>
+            <li>Aliquam nec felis in sapien venenatis viverra fermentum nec lectus.</li>
+            <li>Ut non enim metus.</li>
+          </ul>
+          <p>Cras in nibh lacinia, venenatis nisi et, auctor urna. Donec pulvinar lacus sed diam dignissim, ut eleifend eros accumsan. Phasellus non tortor eros. Ut sed rutrum lacus. Etiam purus nunc, scelerisque quis enim vitae, malesuada ultrices turpis. Nunc vitae maximus purus, nec consectetur dui. Suspendisse euismod, elit vel rutrum commodo, ipsum tortor maximus dui, sed varius sapien odio vitae est. Etiam at cursus metus.</p>
+        </div>
+      </section>
+      <footer class="modal-card-foot">
+        <button class="button close-modal">Tutup Analisis</button>
+      </footer>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+</html>

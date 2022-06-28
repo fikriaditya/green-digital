@@ -1,0 +1,165 @@
+[{
+  "_id": {
+    "$oid": "5f8a910b25b9d4e79512c5b2"
+  },
+  "lyrName": "Gunung",
+  "lyrShortname": "gunung",
+  "lyrGroup": "Bentang_Alam",
+  "lyrType": "wms",
+  "lyrUrl": "http://103.108.201.6/geoserver/geonode/wms",
+  "lyrTypeName": "geonode:Sebaran_Kesehatan",
+  "lyrDesc": "lorem ipsum dolor sit amet consecteur",
+  "lyrSource": "source",
+  "lyrTopology": "point"
+},{
+  "_id": {
+    "$oid": "5f8a910b25b9d4e79512c5b3"
+  },
+  "lyrName": "Curah Hujan",
+  "lyrShortname": "curah_hujan",
+  "lyrGroup": "Iklim dan Cuaca",
+  "lyrType": "wms",
+  "lyrUrl": "http://103.108.201.6/geoserver/geonode/wms",
+  "lyrTypeName": "geonode:curah_hujan",
+  "lyrDesc": "lorem ipsum dolor sit amet consecteur",
+  "lyrSource": "source",
+  "lyrTopology": "point"
+},{
+  "_id": {
+    "$oid": "5f8a910b25b9d4e79512c5b5"
+  },
+  "lyrName": "Kualitas Udara",
+  "lyrShortname": "kualitas udara",
+  "lyrGroup": "Iklim dan Cuaca",
+  "lyrType": "wms",
+  "lyrUrl": "http://103.108.201.6/geoserver/geonode/wms",
+  "lyrTypeName": "geonode:KualitasUdara",
+  "lyrDesc": "lorem ipsum dolor sit amet consecteur",
+  "lyrSource": "source",
+  "lyrTopology": "point",
+  "lyrStyle": "geonode:kualitasudara"
+},{
+  "_id": {
+    "$oid": "5f8a910b25b9d4e79512c5b6"
+  },
+  "lyrName": "CakupanMatahari",
+  "lyrShortname": "cakupanMatahari",
+  "lyrGroup": "Iklim dan Cuaca",
+  "lyrType": "wms",
+  "lyrUrl": "http://103.108.201.6/geoserver/geonode/wms",
+  "lyrTypeName": "geonode:cakupanMatahari",
+  "lyrDesc": "lorem ipsum dolor sit amet consecteur",
+  "lyrSource": "source",
+  "lyrTopology": "polygon",
+  "lyrStyle": "geonode:cakupanMatahari"
+},{
+  "_id": {
+    "$oid": "5f8a910b25b9d4e79512c5b7"
+  },
+  "lyrName": "Area Konservasi Harimau",
+  "lyrShortname": "konservasiHarimau",
+  "lyrGroup": "Biodiversitas",
+  "lyrType": "wms",
+  "lyrUrl": "http://103.108.201.6/geoserver/geonode/wms",
+  "lyrTypeName": "geonode:konservasiHarimau",
+  "lyrDesc": "lorem ipsum dolor sit amet consecteur",
+  "lyrSource": "source",
+  "lyrTopology": "point",
+  "lyrFilter": "FCODE IN ( 'GB01100026', 'GB01100027')",
+  "lyrStyle": "geonode:pusatPerbelanjaan"
+},{
+  "_id": {
+    "$oid": "5f8a910b25b9d4e79512c5b5"
+  },
+  "lyrName": "Lokasi Burung Endemik",
+  "lyrShortname": "lokasiBurungEndemik",
+  "lyrGroup": "Biodiversitas",
+  "lyrType": "wms",
+  "lyrUrl": "http://103.108.201.6/geoserver/geonode/wms",
+  "lyrTypeName": "geonode:lokasiBurungEndemik",
+  "lyrDesc": "lorem ipsum dolor sit amet consecteur",
+  "lyrSource": "source",
+  "lyrTopology": "point",
+  "lyrFilter": "FCODE IN ( 'GF01100021', 'GF01100022', 'GF01100023')",
+  "lyrStyle": "geonode:tempatIbadah"
+},{
+  "_id": {
+    "$oid": "5f8a910b25b9d4e79512c5b9"
+  },
+  "lyrName": "Hutan Lindung",
+  "lyrShortname": "hutanLindung",
+  "lyrGroup": "Land_Cover",
+  "lyrType": "wms",
+  "lyrUrl": "http://103.108.201.6/geoserver/geonode/wms",
+  "lyrTypeName": "geonode:hutanLindung",
+  "lyrDesc": "lorem ipsum dolor sit amet consecteur",
+  "lyrSource": "source",
+  "lyrTopology": "line"
+},{
+  "_id": {
+    "$oid": "5f8a910b25b9d4e79512c5ba"
+  },
+  "lyrName": "Taman Nasional",
+  "lyrShortname": "tamanNasional",
+  "lyrGroup": "Land_Cover",
+  "lyrType": "wms",
+  "lyrUrl": "http://103.108.201.6/geoserver/geonode/wms",
+  "lyrTypeName": "geonode:PLACEMARK_PT",
+  "lyrDesc": "lorem ipsum dolor sit amet consecteur",
+  "lyrSource": "source",
+  "lyrTopology": "point",
+  "lyrFilter": "FCODE IN ( 'CA01100301', 'CA01100140', 'CC01100141', 'CA01100200')",
+  "lyrStyle": "geonode:transitTransport"
+},{
+  "_id": {
+    "$oid": "5f8a910b25b9d4e79512c5b8"
+  },
+  "lyrName": "Perkebunan",
+  "lyrShortname": "perkebunan",
+  "lyrGroup": "Land_Cover",
+  "lyrType": "wms",
+  "lyrUrl": "http://103.108.201.6/geoserver/geonode/wms",
+  "lyrTypeName": "geonode:Perkebunan",
+  "lyrDesc": "lorem ipsum dolor sit amet consecteur",
+  "lyrSource": "source",
+  "lyrTopology": "line"
+},{
+  "_id": {
+    "$oid": "5f8a910b25b9d4e79512c5bb"
+  },
+  "lyrName": "Deforestasi",
+  "lyrShortname": "deforestasi",
+  "lyrGroup": "Kehutanan",
+  "lyrType": "wms",
+  "lyrUrl": "http://103.108.201.6/geoserver/geonode/wms",
+  "lyrTypeName": "geonode:Deforestasi",
+  "lyrDesc": "lorem ipsum dolor sit amet consecteur",
+  "lyrSource": "source",
+  "lyrTopology": "raster"
+},{
+  "_id": {
+    "$oid": "5f8a910b25b9d4e79512c5bc"
+  },
+  "lyrName": "Lokasi Titik Api",
+  "lyrShortname": "lokasiTitikApi",
+  "lyrGroup": "Kehutanan",
+  "lyrType": "wms",
+  "lyrUrl": "http://103.108.201.6/geoserver/geonode/wms",
+  "lyrTypeName": "geonode:lokasiTitikApi",
+  "lyrDesc": "lorem ipsum dolor sit amet consecteur",
+  "lyrSource": "source",
+  "lyrTopology": "raster"
+},{
+  "_id": {
+    "$oid": "5f8a910b25b9d4e78912c5bc"
+  },
+  "lyrName": "Danau",
+  "lyrShortname": "danau",
+  "lyrGroup": "Bentang_Alam",
+  "lyrType": "wms",
+  "lyrUrl": "http://103.108.201.6/geoserver/geonode/wms",
+  "lyrTypeName": "geonode:KapasitasIsolasi",
+  "lyrDesc": "lorem ipsum dolor sit amet consecteur",
+  "lyrSource": "source",
+  "lyrTopology": "raster"
+}]
