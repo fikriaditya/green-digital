@@ -7,6 +7,7 @@ import './dummy/layerData.json';
 import './dummy/dataKasus3.json';
 import './dummy/admindesa.json';
 import './dummy/indexLayer.json';
+import './dummy/lokasiPohon.json';
 
 // import '@mdi/font/css/materialdesignicons.css';
 
