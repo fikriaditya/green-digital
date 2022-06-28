@@ -94,7 +94,8 @@ module.exports = merge(common, {
         })
       ]
     }),
-    new CopyPlugin([{ from: 'src/images/iconpng/*', to: 'images/iconpng/' }]),
+    new CopyPlugin([{ from: 'src/images/iconpng/', to: 'images/iconpng/' }]),
+    new CopyPlugin([{ from: 'src/uploadedPhotos/', to: 'uploadedPhotos/' }]),
     new FaviconsWebpackPlugin({
       logo: './src/images/pusicov-logo.svg',
       favicons: {
